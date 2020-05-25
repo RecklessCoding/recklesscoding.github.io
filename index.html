@@ -2,323 +2,322 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Andreas Theodorou</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Andreas Theodorou</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+
+  <script>
+   var displayList = {};
+   var it = 0;
+
+   function displayOnly(num, element, displayListNum){
+    if (displayListNum in displayList){
+      displayed = displayList[displayListNum] ;
+    } else{
+      displayed = 0;
+      displayList[displayListNum] = displayed;
+    }
+
+    if (displayed > -1 && displayed < num) {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+
+    displayList[displayListNum] = displayed + 1;
+    }       
+  </script>
+
+  <bibtex src="/files/MyPublications.bib"></bibtex>
+  <bibtex src="/files/MyTalks.bib"></bibtex>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;">
-        <div class="container"><button data-toggle="collapse" class="navbar-toggler navbar-dark" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon shadow-lg"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="Publications.html">Publications</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="outreach.html">Outreach</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="supervision.html">Supervision</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="CV.html">CV</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main>
-        <section id="intro" class="first-block block-intro">
-            <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/AndreasTheodorouCOGX.jpg&quot;); height: 150px;width: 150px;"></div>
-                <div class="about-me">
-                    <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
-                    <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial Intelligence</strong></p>
-                    <p class="research-interest" style="margin-bottom: -10px;"><strong>AI</strong>&nbsp;Governance | Transparency | Systems AI | HRI</p>
-                </div>
-                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="color: #384141;"><a href="#"><i class="fab fa-twitter-square" style="font-size: 32px;display: inline-block;color: #384141;margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a><a href="#" style="font-family: Academicons;color: #384141;font-size: 11px;"><i class="ai ai-google-scholar-square ai-3x"></i></a>
-                    <a
-                        href="#"><i class="fab fa-linkedin" style="font-size: 32px;display: inline-block;color: #384141;margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a>
-                </div>
-            </div>
-        </section>
-        <section id="tldr-intro" class="alt-colour">
-            <div class="intro">
-                <div class="container">
-                    <h2 class="text-center">Research Overview</h2>
-                    <div class="col">
-                        <p class="text-center">My research is mainly focused in <strong>responsible Artificial Intelligence. </strong>More specificially, I am looking at the <strong>social practices,</strong>&nbsp;<strong>computetional methods, and formalisms </strong>we need
-                            to effectively&nbsp;<strong>audit, verify, and validate intelligent systems while also ensuring their trustworhniess and robustness.</strong>&nbsp;<br>My research spans accross multiple fields; including <em>systems AI,</em>&nbsp;<em>cognitive architectures, knowledge representation,&nbsp;HRI, policymaking, </em>and
-                            <em>moral philosophy.</em><br></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="upcoming-talks-2" class="main-colour">
-            <div class="container">
-                <h2 class="text-center">Upcoming Talks &amp; Events</h2>
-                <p class="text-center">For a full list, please consult the decidated page.<br></p><script>
- var displayList = {};
- var it = 0;
-
- function displayOnly(num, element, displayListNum){
-
-  if (displayListNum in displayList){
-    displayed = displayList[displayListNum] ;
-  } else{
-    displayed = 0;
-    displayList[displayListNum] = displayed;
-  }
-
-  if (displayed > -1 && displayed < num) {
-    element.style.display = "block";
-  } else {
-    element.style.display = "none";
-  }
-
-  displayList[displayListNum] = displayed + 1;
-}   
-</script>
-
-<bibtex src="https://raw.githubusercontent.com/RecklessCoding/recklesscoding.github.io/master/files/MyPublications.bib"></bibtex>
-<bibtex src="https://raw.githubusercontent.com/RecklessCoding/recklesscoding.github.io/master/files/MyTalks.bib"></bibtex>
-
-<div class="bibtex_structure">
-  <div class="sort year" extra="DESC string">
-   <div class="sort MONTH" extra="ASC date">
-    <div class="templates"></div>
-  </div>
-</div>
-</div>
-
-
-<div id="talks" class="bibtex_display publicationsList" bibtextypekey="TALK">
-  <div id="talk" class="if bibtex_template"  style="display: none;" callback="displayOnly(2,bibtexentry,1)">
-    <div class="publicationEntry">
-      <span class="if BIBTEXTYPEKEY==TALK">
-        <span class="if upcoming"><span class="upcomingTalk">Upcoming</span></span>
-        <span class="if TALKTYPE==Invited Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype journalLabel"></span></a></span>
-        <span class="if TALKTYPE==Peer-reviewed Contribution"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="confLabel">Peer-reviewed</span></a></span>
-        <span class="if TALKTYPE==Guest Lecture"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype bookChLabel"></span></a></span>
-        <span class="if TALKTYPE==Poster"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype techLabel">Poster</span></a></span>
-        <span class="if TALKTYPE==Keynote"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-        <span class="if TALKTYPE==Panel"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-        <span class="if TALKTYPE==Tutorial"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-        <span class="if TALKTYPE==Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-
-        <b><span class="title"> </span></b>.          
-        <span class="if event "><em><span class="event"></span></em>,</span>
-        <span class="if institution"><span class="institution"></span>,</span>
-        <span class="if day"><span class="day"></span> </span>
-        <span class="if month"><span class="month"></span>,</span>
-        <span class="if year"><span class="year"></span>.</span>
-        <span class="if url"><a class="url">[View Online]</a></span>  
-        <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
-        <span class="if keywords"><span class="keywords" style="display:none"></span></span>
-        <span class="upcoming" style="display:none"></span>
-      </span>
-      <br>      
+  <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;">
+    <div class="container"><button data-toggle="collapse" class="navbar-toggler navbar-dark" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon shadow-lg"></span></button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="Publications.html">Publications</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="outreach.html">Outreach</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="supervision.html">Supervision</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="CV.html">CV</a></li>
+        </ul>
+      </div>
     </div>
-  </div>    
-</div></div>
-        </section>
-        <section id="projects" class="alt-colour">
-            <div class="container">
-                <div class="intro">
-                    <h2 class="text-center">Research Projects </h2>
-                    <p class="text-center">Dedicated pages for research projects to be made public soon.</p>
-                </div>
-                <div class="row projects">
-                    <div class="col-sm-6 col-lg-4 text-center item"><img class="img-fluid img-project" src="assets/img/ai4eu-logo_NOTAGLINE.JPG" height="400px">
-                        <h3 class="text-left name">AI4EU</h3>
-                        <p class="text-left description">Building Europe's first on-demand AI Platform.</p>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 text-left item"><img class="img-fluid img-project" src="assets/img/The-two-stages-of-the-Glass-Box-Approach-an-Interpretation-stage-where-values-are.png" height="400px">
-                        <h3 class="name">Glass-Box V&amp;V</h3>
-                        <p class="text-left description">Developing methods to verify and monitor the behavior of AI systems based on the observation in a continuously evolving societal optimum.<br></p>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 text-center item"><img class="img-fluid img-project" src="assets/img/abod3.png" height="500px">
-                        <h3 class="text-left name">Transparency in AI</h3>
-                        <p class="text-left description">Creating tools that shows a&nbsp;simple, abstracted, real-time visualisation of a robot’s decision-making process.<br><br></p>
-                    </div>
-                </div>
-                <div class="row align-items-center projects">
-                    <div class="col-sm-1 col-lg-4 item"></div>
-                    <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/heavy-rain-shower-meadow-background-with-sparkle-bokeh-raining-nature_79161-580.jpg">
-                        <h3 class="name">RAIN</h3>
-                        <p class="description">Details to be announced soon.</p>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 item"></div>
-                </div>
-            </div>
-        </section>
-        <section id="upcoming-talks-1" class="main-colour">
-            <div class="container">
-                <h2 class="text-center">Recent publications</h2>
-                <p class="text-center">For a full list, please consult the decidated page.<br></p>
-<!-- bibtextypekey="ARTICLE|INPROCEEDINGS|INCOLLECTION" -->
-<div id="publications" class="bibtex_display publicationsList" bibtextypekey="ARTICLE|INPROCEEDINGS|INCOLLECTION"> 
-  <div id="publication" class="if bibtex_template" style="display: none;" callback="displayOnly(3,bibtexentry,2)">
-    <div class="publicationEntry">
-      <span class="if BIBTEXTYPEKEY==ARTICLE">
-        <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a>
-        <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
-        <span> </span>
-        <b><span class="title"> </span></b>.          
-        <span class="if journal"><em><span class="journal"></span></em>,</span>
-        <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
-        <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
-        <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-        <span class="if institution"><span class="institution"></span>,</span>
-        <span class="if address"><span class="address"></span>,</span>
-        <span class="if volume"><span class="volume"></span>,</span>
-        <span class="if journal number">(<span class="number"></span>),</span>
-        <span class="if pages"> pages <span class="pages"></span>,</span>
-        <span class="if month"><span class="month"></span>,</span>
-        <span class="if year"><span class="year"></span>.</span>
-        <span class="if note"><span class="note"></span>.</span>
-        <span class ="if abstract">
-          <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
-        </span>
-
-        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
-        <span class="if doi"><a class="doi">[doi]</a></span>     
-        <span class="if url"><a class="url">[View Online]</a></span>  
-        <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>     
-
-        <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
-        <span class="if keywords"><span class="keywords" style="display:none"></span></span>
-
-        <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-          <div class="card">
-            <div class="card card-body">
-              <pre><span class="bibtexraw noread"></span></pre>
+  </nav>
+  <main>
+    <section id="intro" class="first-block block-intro">
+      <div class="container">
+        <div class="avatar" style="background-image: url(&quot;assets/img/AndreasTheodorouCOGX.jpg&quot;); height: 150px;width: 150px;"></div>
+        <div class="about-me">
+          <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
+          <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial Intelligence</strong></p>
+          <p class="research-interest" style="margin-bottom: -10px;"><strong>AI</strong>&nbsp;Governance | Transparency | Systems AI | HRI</p>
+        </div>
+        <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="color: #384141;"><a href="#"><i class="fab fa-twitter-square" style="font-size: 32px;display: inline-block;color: #384141;margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a><a href="#" style="font-family: Academicons;color: #384141;font-size: 11px;"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+          <a
+          href="#"><i class="fab fa-linkedin" style="font-size: 32px;display: inline-block;color: #384141;margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="tldr-intro" class="alt-colour">
+      <div class="intro">
+        <div class="container">
+          <h2 class="text-center">Research Overview</h2>
+          <div class="col">
+            <p class="text-center">My research is mainly focused in <strong>responsible Artificial Intelligence. </strong>More specificially, I am looking at the <strong>social practices,</strong>&nbsp;<strong>computetional methods, and formalisms </strong>we need
+              to effectively&nbsp;<strong>audit, verify, and validate intelligent systems while also ensuring their trustworhniess and robustness.</strong>&nbsp;<br>My research spans accross multiple fields; including <em>systems AI,</em>&nbsp;<em>cognitive architectures, knowledge representation,&nbsp;HRI, policymaking, </em>and
+              <em>moral philosophy.</em><br></p>
             </div>
           </div>
         </div>
+      </section>
+      <section id="upcoming-talks" class="main-colour">
+        <div class="container">
+          <h2 class="text-center">Upcoming Talks &amp; Events</h2>
+          <p class="text-center">For a full list, please consult the decidated page.<br></p>
 
-        <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
-          <div class="card">
-            <div class="card card-body">
-              <span class="abstract"></span>
+          <div class="bibtex_structure">
+            <div class="sort year" extra="DESC string">
+             <div class="sort MONTH" extra="ASC date">
+              <div class="templates"></div>
             </div>
           </div>
         </div>
-      </span>
-      <span class="if BIBTEXTYPEKEY==INPROCEEDINGS">
-        <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)">
-          <span class="confLabel">Proceedings</span></a>
-          <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a>
-          <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
-          <span> </span>
-          <b><span class="title"> </span></b>.          
-          <span class="if journal"><em><span class="journal"></span></em>,</span>
-          <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
-          <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
-          <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-          <span class="if institution"><span class="institution"></span>,</span>
-          <span class="if address"><span class="address"></span>,</span>
-          <span class="if volume"><span class="volume"></span>,</span>
-          <span class="if journal number">(<span class="number"></span>),</span>
-          <span class="if pages"> pages <span class="pages"></span>,</span>
-          <span class="if month"><span class="month"></span>,</span>
-          <span class="if year"><span class="year"></span>.</span>
-          <span class="if note"><span class="note"></span>.</span>
-          <span class ="if abstract">
-            <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
-          </span>
+        <div id="talks" class="bibtex_display publicationsList" bibtextypekey="TALK">
+          <div id="talk" class="if bibtex_template"  style="display: none;" callback="displayOnly(2,bibtexentry,1)">
+            <div class="publicationEntry">
+              <span class="if BIBTEXTYPEKEY==TALK">
+                <span class="if upcoming"><span class="upcomingTalk">Upcoming</span></span>
+                <span class="if TALKTYPE==Invited Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype journalLabel"></span></a></span>
+                <span class="if TALKTYPE==Peer-reviewed Contribution"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="confLabel">Peer-reviewed</span></a></span>
+                <span class="if TALKTYPE==Guest Lecture"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype bookChLabel"></span></a></span>
+                <span class="if TALKTYPE==Poster"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype techLabel">Poster</span></a></span>
+                <span class="if TALKTYPE==Keynote"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+                <span class="if TALKTYPE==Panel"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+                <span class="if TALKTYPE==Tutorial"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+                <span class="if TALKTYPE==Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
 
-          <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
-          <span class="if doi"><a class="doi">[doi]</a></span>     
-          <span class="if url"><a class="url">[View Online]</a></span>  
-          <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>     
-
-          <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
-          <span class="if keywords"><span class="keywords" style="display:none"></span></span>
-
-          <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-            <div class="card">
-              <div class="card card-body">
-                <pre><span class="bibtexraw noread"></span></pre>
-              </div>
+                <b><span class="title"> </span></b>.          
+                <span class="if event "><em><span class="event"></span></em>,</span>
+                <span class="if institution"><span class="institution"></span>,</span>
+                <span class="if day"><span class="day"></span> </span>
+                <span class="if month"><span class="month"></span>,</span>
+                <span class="if year"><span class="year"></span>.</span>
+                <span class="if url"><a class="url">[View Online]</a></span>  
+                <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
+                <span class="if keywords"><span class="keywords" style="display:none"></span></span>
+                <span class="upcoming" style="display:none"></span>
+              </span>
+              <br>      
+            </div>
+          </div>    
+        </div></div>
+      </section>
+      <section id="projects" class="alt-colour">
+        <div class="container">
+          <div class="intro">
+            <h2 class="text-center">Research Projects </h2>
+            <p class="text-center">Dedicated pages for research projects to be made public soon.</p>
+          </div>
+          <div class="row projects">
+            <div class="col-sm-6 col-lg-4 text-center item"><img class="img-fluid img-project" src="assets/img/ai4eu-logo_NOTAGLINE.JPG" height="400px">
+              <h3 class="text-left name">AI4EU</h3>
+              <p class="text-left description">Building Europe's first on-demand AI Platform.</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 text-left item"><img class="img-fluid img-project" src="assets/img/The-two-stages-of-the-Glass-Box-Approach-an-Interpretation-stage-where-values-are.png" height="400px">
+              <h3 class="name">Glass-Box V&amp;V</h3>
+              <p class="text-left description">Developing methods to verify and monitor the behavior of AI systems based on the observation in a continuously evolving societal optimum.<br></p>
+            </div>
+            <div class="col-sm-6 col-lg-4 text-center item"><img class="img-fluid img-project" src="assets/img/abod3.png" height="500px">
+              <h3 class="text-left name">Transparency in AI</h3>
+              <p class="text-left description">Creating tools that shows a&nbsp;simple, abstracted, real-time visualisation of a robot’s decision-making process.<br><br></p>
             </div>
           </div>
-
-          <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
-            <div class="card">
-              <div class="card card-body">
-                <span class="abstract"></span>
-              </div>
+          <div class="row align-items-center projects">
+            <div class="col-sm-1 col-lg-4 item"></div>
+            <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/heavy-rain-shower-meadow-background-with-sparkle-bokeh-raining-nature_79161-580.jpg">
+              <h3 class="name">RAIN</h3>
+              <p class="description">Details to be announced soon.</p>
             </div>
+            <div class="col-sm-6 col-lg-4 item"></div>
           </div>
-        </span>
-      </span>
-      <span class="if BIBTEXTYPEKEY==INCOLLECTION">
-        <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)">
-          <span class="confLabel">Proceedings</span></a>
-          <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a>
-          <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
-          <span> </span>
-          <b><span class="title"> </span></b>.          
-          <span class="if journal"><em><span class="journal"></span></em>,</span>
-          <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
-          <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
-          <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-          <span class="if institution"><span class="institution"></span>,</span>
-          <span class="if address"><span class="address"></span>,</span>
-          <span class="if volume"><span class="volume"></span>,</span>
-          <span class="if journal number">(<span class="number"></span>),</span>
-          <span class="if pages"> pages <span class="pages"></span>,</span>
-          <span class="if month"><span class="month"></span>,</span>
-          <span class="if year"><span class="year"></span>.</span>
-          <span class="if note"><span class="note"></span>.</span>
-          <span class ="if abstract">
-            <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
-          </span>
+        </div>
+      </section>
+      <section id="recent-papers" class="main-colour">
+        <div class="container">
+          <h2 class="text-center">Recent publications</h2>
+          <p class="text-center">For a full list, please consult the decidated page.<br></p>
+          <!-- bibtextypekey="ARTICLE|INPROCEEDINGS|INCOLLECTION" -->
+          <div id="publications" class="bibtex_display publicationsList" bibtextypekey="ARTICLE|INPROCEEDINGS|INCOLLECTION"> 
+            <div id="publication" class="if bibtex_template" style="display: none;" callback="displayOnly(3,bibtexentry,2)">
+              <div class="publicationEntry">
+                <span class="if BIBTEXTYPEKEY==ARTICLE">
+                  <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a>
+                  <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
+                  <span> </span>
+                  <b><span class="title"> </span></b>.          
+                  <span class="if journal"><em><span class="journal"></span></em>,</span>
+                  <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
+                  <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
+                  <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+                  <span class="if institution"><span class="institution"></span>,</span>
+                  <span class="if address"><span class="address"></span>,</span>
+                  <span class="if volume"><span class="volume"></span>,</span>
+                  <span class="if journal number">(<span class="number"></span>),</span>
+                  <span class="if pages"> pages <span class="pages"></span>,</span>
+                  <span class="if month"><span class="month"></span>,</span>
+                  <span class="if year"><span class="year"></span>.</span>
+                  <span class="if note"><span class="note"></span>.</span>
+                  <span class ="if abstract">
+                    <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
+                  </span>
 
-          <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
-          <span class="if doi"><a class="doi">[doi]</a></span>     
-          <span class="if url"><a class="url">[View Online]</a></span>  
-          <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>     
+                  <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
+                  <span class="if doi"><a class="doi">[doi]</a></span>     
+                  <span class="if url"><a class="url">[View Online]</a></span>  
+                  <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>     
 
-          <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
-          <span class="if keywords"><span class="keywords" style="display:none"></span></span>
+                  <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
+                  <span class="if keywords"><span class="keywords" style="display:none"></span></span>
 
-          <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-            <div class="card">
-              <div class="card card-body">
-                <pre><span class="bibtexraw noread"></span></pre>
+                  <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                    <div class="card">
+                      <div class="card card-body">
+                        <pre><span class="bibtexraw noread"></span></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
+                    <div class="card">
+                      <div class="card card-body">
+                        <span class="abstract"></span>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <span class="if BIBTEXTYPEKEY==INPROCEEDINGS">
+                  <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)">
+                    <span class="confLabel">Proceedings</span></a>
+                    <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a>
+                    <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
+                    <span> </span>
+                    <b><span class="title"> </span></b>.          
+                    <span class="if journal"><em><span class="journal"></span></em>,</span>
+                    <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
+                    <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
+                    <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+                    <span class="if institution"><span class="institution"></span>,</span>
+                    <span class="if address"><span class="address"></span>,</span>
+                    <span class="if volume"><span class="volume"></span>,</span>
+                    <span class="if journal number">(<span class="number"></span>),</span>
+                    <span class="if pages"> pages <span class="pages"></span>,</span>
+                    <span class="if month"><span class="month"></span>,</span>
+                    <span class="if year"><span class="year"></span>.</span>
+                    <span class="if note"><span class="note"></span>.</span>
+                    <span class ="if abstract">
+                      <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
+                    </span>
+
+                    <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
+                    <span class="if doi"><a class="doi">[doi]</a></span>     
+                    <span class="if url"><a class="url">[View Online]</a></span>  
+                    <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>     
+
+                    <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
+                    <span class="if keywords"><span class="keywords" style="display:none"></span></span>
+
+                    <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                      <div class="card">
+                        <div class="card card-body">
+                          <pre><span class="bibtexraw noread"></span></pre>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
+                      <div class="card">
+                        <div class="card card-body">
+                          <span class="abstract"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </span>
+                <span class="if BIBTEXTYPEKEY==INCOLLECTION">
+                  <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)">
+                    <span class="confLabel">Proceedings</span></a>
+                    <a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a>
+                    <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
+                    <span> </span>
+                    <b><span class="title"> </span></b>.          
+                    <span class="if journal"><em><span class="journal"></span></em>,</span>
+                    <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
+                    <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
+                    <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+                    <span class="if institution"><span class="institution"></span>,</span>
+                    <span class="if address"><span class="address"></span>,</span>
+                    <span class="if volume"><span class="volume"></span>,</span>
+                    <span class="if journal number">(<span class="number"></span>),</span>
+                    <span class="if pages"> pages <span class="pages"></span>,</span>
+                    <span class="if month"><span class="month"></span>,</span>
+                    <span class="if year"><span class="year"></span>.</span>
+                    <span class="if note"><span class="note"></span>.</span>
+                    <span class ="if abstract">
+                      <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
+                    </span>
+
+                    <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
+                    <span class="if doi"><a class="doi">[doi]</a></span>     
+                    <span class="if url"><a class="url">[View Online]</a></span>  
+                    <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>     
+
+                    <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
+                    <span class="if keywords"><span class="keywords" style="display:none"></span></span>
+
+                    <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                      <div class="card">
+                        <div class="card card-body">
+                          <pre><span class="bibtexraw noread"></span></pre>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
+                      <div class="card">
+                        <div class="card card-body">
+                          <span class="abstract"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+
+                  </span>
+                </span>
               </div>
-            </div>
+            </div>       
           </div>
-
-          <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
-            <div class="card">
-              <div class="card card-body">
-                <span class="abstract"></span>
-              </div>
-            </div>
-          </div>
-              <br>
-
-        </span>
-      </span>
-    </div>
-  </div>       
-</div>
-</div>
-        </section>
+        </div>
+      </section>
     </main>
     <div class="footer-basic">
-        <footer>
-            <p class="copyright">Andreas Theodorou © 2020</p>
-        </footer>
+      <footer>
+        <p class="copyright">Andreas Theodorou © 2020</p>
+      </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-</body>
+  </body>
 
-</html>
+  </html>
