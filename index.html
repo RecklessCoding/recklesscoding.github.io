@@ -112,7 +112,7 @@
                 <div id="talk" class="if bibtex_template" style="display: none;"
                      callback="displayOnly(2,bibtexentry,1)">
                     <div class="publicationEntry">
-                <span class="if BIBTEXTYPEKEY==TALK">
+                <span class="if BIBTEXTYPEKEY==TALK"><span class="if upcoming">
                   <span class="if upcoming"><span class="upcomingTalk">Upcoming</span></span>
                   <span class="if TALKTYPE==Invited Talk"><a
                           onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span
@@ -150,7 +150,7 @@
                   <span class="if keywords"><span class="keywords" style="display:none"></span></span>
                   <span class="upcoming" style="display:none"></span>
                   <br><div style="line-height: 0.3em; visibility: hidden;">.</div>
-                </span>
+                </span></span>
                     </div>
                 </div>
             </div>
