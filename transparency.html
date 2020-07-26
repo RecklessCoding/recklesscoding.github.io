@@ -16,7 +16,15 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/academicons.min.css">
+    <link rel="stylesheet" href="assets/css/footer.min.css">
+    <link rel="stylesheet" href="assets/css/jumbotron-particles.min.css"> 
+    <link rel="stylesheet" href="assets/css/gradient-navbar.min.css"> 
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/publications.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">    
+    <bibtex src="files/MyPublications.bib"></bibtex>
 </head>
 
 <body>
@@ -56,7 +64,7 @@
         </div>
     </div>
 </div>
-<div class="jumbotron text-center" id="transparency-intro" style="padding: 2rem 0rem 1rem 0rem;margin-bottom: 0rem;">
+<div class="jumbotron text-center" id="transparency-intro" style="padding: 2rem 0rem 1rem 0rem;margin-bottom: 1rem;">
     <div class="container">
         <h1>Transparency</h1>
         <p class="lead text-center" style="margin-bottom: 0px;">"<strong>Robots are manufactured artefacts.</strong>
@@ -76,15 +84,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <bibtex src="https://raw.githubusercontent.com/RecklessCoding/recklesscoding.github.io/master/files/MyPublications.bib"></bibtex>
-
                     <div>
 
                         <div class="bibtex_display" bibtexkey="Theodorou2017">
                         </div>
 
                         <p>
-                            d
                             <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
                                aria-expanded="false" aria-controls="collapseExample">
                                 Link with href
@@ -95,8 +100,8 @@
                                 Link with href 2
                             </a>
 
-                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button"
-                               aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#Theodorou2017ConnectionScience" role="button"
+                               aria-expanded="false" aria-controls="Theodorou2017ConnectionScience">
                                 Link with href 2
                             </a>
                         </p>
@@ -107,64 +112,7 @@
                                 Science, 29, pages 230-241, 2017.<a href="">[doi]</a>
                             </div>
                         </div>
-                        <!--
-                        <div class="collapse" id="collapseExample2">
-                          <div class="card card-body">
-
-                            <div id="bibtex_display" class="publicationsList" bibtexkey="WilsonTheodorou2019">
-                              <div class="if bibtex_template" style="display: none;">
-                                <div class="publicationEntry">
-                                  <span class="if BIBTEXTYPEKEY==ARTICLE"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="journalLabel">Journal</span></a></span>
-                                  <span class="if BIBTEXTYPEKEY==INPROCEEDINGS"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="confLabel">Proceedings</span></a></span>
-                                  <span class="if BIBTEXTYPEKEY==INCOLLECTION"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="bookChLabel">Book Chapter</span></a></span>
-                                  <span class="if BIBTEXTYPEKEY==TECHREPORT"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="techLabel">Tech Report</span></a></span>
-                                  <span class="if BIBTEXTYPEKEY==PHDTHESIS"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="thesisLabel">PhD Thesis</span></a></span>
-
-
-                                  <span class="author" conjunction=", and"><span class="von"></span> <span class="last"></span><span class="junior">, </span> <span class="first_initial"></span></span>
-                                  <span> </span>
-                                  <b><span class="title"> </span></b>.
-                                  <span class="if journal"><em><span class="journal"></span></em>,</span>
-                                  <span class="if editor"> In <span class="editor"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial"> </span></span> (eds),</span>
-                                  <span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
-                                  <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-                                  <span class="if institution"><span class="institution"></span>,</span>
-                                  <span class="if address"><span class="address"></span>,</span>
-                                  <span class="if volume"><span class="volume"></span>,</span>
-                                  <span class="if journal number">(<span class="number"></span>),</span>
-                                  <span class="if pages"> pages <span class="pages"></span>,</span>
-                                  <span class="if month"><span class="month"></span>,</span>
-                                  <span class="if year"><span class="year"></span>.</span>
-                                  <span class="if note"><span class="note"></span>.</span>
-                                  <span class ="if abstract">
-                                    <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+Abstract" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY"> [Abstract]</a>
-                                  </span>
-
-                                  <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">[bib]</a>
-                                  <span class="if doi"><a class="doi">[doi]</a></span>
-                                  <span class="if url"><a class="url">[View Online]</a></span>
-                                  <span class="if arxivId"><a class="arxivid">[arXiv]</a></span>
-
-                                  <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
-                                  <span class="if keywords"><span class="keywords" style="display:none"></span></span>
-
-                                  <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                    <div class="card">
-                                      <pre><span class="bibtexraw noread"></span></pre>
-                                    </div>
-                                  </div>
-
-                                  <div class="bibtexVar collapse abstract-box" id="bib+BIBTEXKEY+Abstract" extra="BIBTEXKEY">
-                                    <div class="card">
-                                      <span class="abstract"></span>
-                                    </div>
-                                  </div>
-                                </div>
-                                <br>
-                              </div>
-                            </div>
-                          </div>
-                        </div> -->
+                         
                         <div id="bibtex_errors"></div>
 
                         <div class="collapse" id="collapseExample2">
@@ -174,9 +122,9 @@
                             </div>
                         </div>
 
-                        <div class="collapse" id="collapseExample3">
+                        <div class="collapse" id="Theodorou2017ConnectionScience">
                             <div class="card card-body">
-                                <div class="bibtex_display" bibtexkey="Theodorou2017">
+                                <div class="bibtex_display" bibtexkey="Theodorou2017ConnectionScience">
                                 </div>
                             </div>
                         </div>

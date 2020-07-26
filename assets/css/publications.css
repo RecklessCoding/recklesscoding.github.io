@@ -1,0 +1,91 @@
+[class="Andreas Theodorou"] {
+  text-decoration: underline;
+}
+
+.publicationsList {
+  line-height: 0.5;
+}
+
+.publicationEntry {
+  line-height: 1.25;
+}
+
+.upcomingTalk {
+  font-size: .85em;
+  background-color: #0ea0ff;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+.journalLabel {
+  font-size: .85em;
+  background-color: #355665;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+.confLabel {
+  font-size: .85em;
+  background-color: #0f7864;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+.abstract-box {
+}
+
+.bookChLabel {
+  font-size: .85em;
+  background-color: #3c5c6a;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+.techLabel {
+  font-size: .85em;
+  background-color: #0ea0ff;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+.thesisLabel {
+  font-size: .85em;
+  background-color: #806852;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+option.journalLabel {
+  background-color: #355665;
+  color: #fff;
+}
+
+option.bookChLabel {
+  background-color: #3c5c6a;
+  color: #fff;
+}
+
+option.proceedingsLabel {
+  background-color: #0f7864;
+  color: #fff;
+}
+
+option.thesisLabel {
+  background-color: #806852;
+  color: #fff;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.card-text {
+  word-wrap: break-word;
+}
+

@@ -1,0 +1,60 @@
+@media (min-width:768px) {
+  .teaching-block .group .period {
+    float: right;
+  }
+}
+
+.teaching-block .group .period {
+  font-size: .8rem;
+  float: none;
+  font-weight: 700;
+  margin-top: 4px;
+  color: #6c757d;
+  opacity: .8;
+}
+
+@media (min-width:768px) {
+  .teaching-block .item {
+    font-weight: 300;
+  }
+}
+
+@media (min-width:768px) {
+  .teaching-block .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.teaching-block .group .period {
+  float: right;
+}
+
+.teaching-block .col-md-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.teaching-block .education h3, .teaching-block .work-experience h3 {
+  font-weight: 700;
+}
+
+.teaching-block h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.teaching-block .group .organization {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.teaching-block .education.group .organization {
+}
+
+.teaching-block h4 {
+  font-size: 1.2rem;
+}

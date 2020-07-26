@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #273c44;
+  text-align: left;
+  background-color: #fff;
+}
+
+a {
+  color: #3c5c6a;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0f7864;
+  text-decoration: underline;
+}
+
+.research-interest {
+  color: #939393;
+}
+
+.short-description {
+  margin-bottom: 0rem;
+}
+
+.img-project {
+  height: 200px;
+}
+
+.main-colour {
+  background-color: rgb(255,255,255);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.alt-colour {
+  background-color: rgb(236,240,241);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 0rem;
+}

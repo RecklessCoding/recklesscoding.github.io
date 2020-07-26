@@ -16,52 +16,58 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-</head>
+    <link rel="stylesheet" href="assets/css/academicons.min.css">
+    <link rel="stylesheet" href="assets/css/footer.min.css">
+    <link rel="stylesheet" href="assets/css/jumbotron-particles.min.css"> 
+    <link rel="stylesheet" href="assets/css/gradient-navbar.min.css"> 
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/cv.css">
+    <body>
+        <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
 
-<body>
-<nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
+        <script>
+            $(function(){
+                $("#app-navbar").load("navbar.html");
+            });
+        </script>
+        <div class="jumbotron jumbotron-fluid jumbotron-main"><script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+            <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 
-<script>
-    $(function(){
-        $("#app-navbar").load("navbar.html");
-    });
-</script>
-    <div class="jumbotron jumbotron-fluid jumbotron-main"><script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-        <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
-
-        <div id="particles-js">
-           <canvas class="particles-js-canvas-el" width="1409" height="319" style="width: 100%; height: 100%;"></canvas>
-       </div>
-       <div class="container center-vertically-holder" style="margin-top:-20px;">
-        <div class="row center-vertically">
-            <div class="col-md-8 offset-sm-0 offset-md-2 text-center" style="margin-top: 20px;margin-bottom: 0px;">
-                <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
-                <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial Intelligence</strong></p>
-                <p class="research-interest" style="margin-bottom: -12px;">AI&nbsp;Governance | Transparency | Systems AI | HRI</p>
-            </div>
-            <div class="col text-center d-xl-flex justify-content-xl-center align-items-xl-center" style="color: #ffffff;"><a href="https://twitter.com/RecklessCoding"><i class="fab fa-twitter-square" style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a>
-                <a
-                href="https://scholar.google.co.uk/citations?user=JEw-BycAAAAJ&amp;hl=en" style="font-family: Academicons;color: rgba(223,232,238,0.85);font-size: 11px;"><i class="ai ai-google-scholar-square ai-3x"></i></a><a href="https://www.linkedin.com/in/andtheodorou"><i class="fab fa-linkedin" style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a></div>
-            </div>
-        </div>
-    </div>
-    <div class="jumbotron text-center" id="transparency-intro-1" style="padding: 2rem 0rem 2rem 0rem;margin-bottom: 0rem;">
-        <div class="container">
-            <h1>Online CV</h1>
-        </div>
-    </div>
-    <main>
-        <section id="publi-intro-1">
-            <div class="container first-block">
-                <div class="text-primary float-none">
-                    <p class="text-justify">This CV page has been last updated in May 2020. A PDF version of my CV is available upon request.</p>
+            <div id="particles-js">
+             <canvas class="particles-js-canvas-el" width="1409" height="319" style="width: 100%; height: 100%;"></canvas>
+         </div>
+         <div class="container center-vertically-holder" style="margin-top:-20px;">
+            <div class="row center-vertically">
+                <div class="col-md-8 offset-sm-0 offset-md-2 text-center" style="margin-top: 20px;margin-bottom: 0px;">
+                    <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
+                    <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial Intelligence</strong></p>
+                    <p class="research-interest" style="margin-bottom: -12px;">AI&nbsp;Governance | Transparency | Systems AI | HRI</p>
+                </div>
+                <div class="col text-center d-xl-flex justify-content-xl-center align-items-xl-center" style="color: #ffffff;"><a href="https://twitter.com/RecklessCoding"><i class="fab fa-twitter-square" style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a>
+                    <a
+                    href="https://scholar.google.co.uk/citations?user=JEw-BycAAAAJ&amp;hl=en" style="font-family: Academicons;color: rgba(223,232,238,0.85);font-size: 11px;"><i class="ai ai-google-scholar-square ai-3x"></i></a><a href="https://www.linkedin.com/in/andtheodorou"><i class="fab fa-linkedin" style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a></div>
                 </div>
             </div>
-        </section>
-        <section id="shortbio" class="alt-colour">
+        </div>
+        <div class="jumbotron text-center" id="transparency-intro-1" style="padding: 2rem 0rem 2rem 0rem;margin-bottom: 0rem;">
             <div class="container">
-                <h2 class="text-center">Short Bio</h2>
+                <h1>Online CV</h1>
+            </div>
+        </div>
+        <main>        
+            <section id="intro-CV" class="main-colour first-block">
+                <div class="container">
+                    <div class="text-primary float-none">
+                       <p class="text-justify" style="margin-bottom: 0rem">
+                            This CV page has been last updated in May 2020. A PDF version of my CV is available upon request.
+                        </p>
+                   </div>
+               </div>
+           </section>
+
+           <section id="shortbio" class="alt-colour">
+            <div class="container items-group">
+                <h2 class="text-center items-heading">Short Bio</h2>
                 <div class="text-primary float-none">
                     <p class="text-justify">Dr. Andreas Theodorou is a Postdoctoral Researcher at the Responsible AI Research Group, led by&nbsp;<a href="https://people.cs.umu.se/virginia/">Prof. Virginia Dignum&nbsp;</a>, at&nbsp;<a href="https://www.umu.se/en/">Umeå University</a>.
                         Dr. Theodorou is working at producing techniques and tools for the design, implementation, and deployment intelligent systems, while taking into consideration the socio-economic, legal, and other ethical issues and challenges that
@@ -73,325 +79,286 @@
                     </div>
                 </div>
             </section>
-            <section id="education" class="portfolio-block cv main-colour">
-                <div class="container">
-                    <h2 class="text-center">Education</h2>
-                    <div class="education group">
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Ph.D in Computer Science</h3>
-                                    <h4 class="organization">University of Bath</h4>
-                                </div>
-                                <div class="col-6 text-md-right text-lg-right"><span class="period">09/2015 - 05/2019</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>BSc (Hons) Computing and IT&nbsp;</h3>
-                                    <h4 class="organization">University of Surrey</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="text-justify period">09/2011- 06/2015</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="work-experience" class="portfolio-block cv alt-colour">
-                <div class="container">
-                    <h2 class="text-center">Work Experience</h2>
-                    <div class="work-experience group">
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Postdoctoral Researcher</h3>
-                                    <h4 class="organization">Umeå University</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right text-xl-right"><span class="period">06/2019 - Present</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3>Research Engineer</h3>
-                                    <h4 class="organization">Umeå University<br></h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right text-xl-right"><span class="text-right period">01/2019 - 06/2019</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Teaching Fellow</h3>
-                                    <h4 class="organization">University of Bath</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period">11/2017 - 03/2018</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Head Tutor</h3>
-                                    <h4 class="organization">University of Bath</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period">01/2016 - 11/2017</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Tutor</h3>
-                                    <h4 class="organization">University of Bath</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period"><strong>09 /2015 - 01/2016</strong><br></span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Research Officer</h3>
-                                    <h4 class="organization">University of Surrey</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period">08/2014 - 07/2015</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Java Developer</h3>
-                                    <h4 class="organization">IDBS</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period">07/2013 - 08/2015</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="policymaking" class="portfolio-block cv main-colour">
-                <div class="container">
-                    <h2 class="text-center">Policymaking &amp; Leadership</h2>
-                    <div class="work-experience group">
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>ART-AI Strategy Board</h3>
-                                    <h4 class="organization">University of Bath</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right text-xl-right"><span class="period">01/2020 - Present</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3>Ethics Board</h3>
-                                    <h4 class="organization">ROXANNE H2020<br></h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right text-xl-right"><span class="text-right period">10/2019 - Present</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>IEEE P70xx Standards</h3>
-                                    <h4 class="organization">University of Bath</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period">11/2016 - Present</span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>ISO JTC1/42</h3>
-                                    <h4 class="organization">BSI ART/1delegation to ISO&nbsp;</h4>
-                                </div>
-                                <div class="col-md-6 text-md-right text-lg-right"><span class="period"><strong>07 /2017- 12/2019</strong><br></span></div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Other Contributions</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li></li>
-                                        <li>Incoporated suggestions and comments in the <em>Cypriot National Strategy on AI</em></li>
-                                        <li>Written evidence at the UK's Parliament AI APPG session on Education<br></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li>Feedback on IEEE Ethically-Alligned Design 1st Edition</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="teaching" class="portfolio-block cv alt-colour">
-                <div class="container">
-                    <h2 class="text-center">Teaching Experience</h2>
-                    <div class="work-experience group">
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col">
-                                    <h3>Umeå University</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h4>Lectures&nbsp;</h4>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li></li>
-                                        <li>Advance AI - 2020/21 (Scheduled)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col">
-                                    <h3>University of Bath</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h4>Head Tutor</h4>
-                                    <p>(often involves duties of assignment creation and marking coordination)<br></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li>Intelligent Cognitive Control Systems&nbsp;<strong>(CM30229/CM50230)</strong><br></li>
-                                        <li>Principles of programming 1&nbsp;<strong>(CM10227/CM50258)</strong><br></li>
-                                        <li>Principles of programming 2&nbsp;<strong>(CM10228)</strong><br></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col">
-                                    <h3>University of Bath</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h4>Tutorials / Lab Demonstrator</h4>
-                                    <p>(in addition to the above modules)<br></p>
-                                    <p></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li>Databases&nbsp;<strong>(CM20255/CM50259)</strong><br></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col">
-                                    <h3>University of Surrey</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h4>Lab Demonstrator</h4>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li>Artificial Intelligence (COM2028)</li>
-                                        <li>Data Structures and Algorithms (COM1029)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="academic-service" class="portfolio-block cv main-colour">
-                <div class="container">
-                    <h2 class="text-center">Academic Service</h2>
-                    <div class="work-experience group">
-                        <div class="heading"></div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Workshop Organisation</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li></li>
-                                        <li>2nd Wokshop on&nbsp;AI for Social Good (AI4SG) 2020 at IJCAI-2020</li>
-                                        <li>1st Wokshop on AI for Social Good (AI4SG) 2019 at IJCAI-2019<br></li>
-                                        <li>Swedish AI Society Annual&nbsp; Symbosia (SAIS) 2019 as Doctoral Consortium Chair</li>
-                                        <li></li>
-                                        <li>2nd Internaional Workshop on AI Safety Engineering (WAISE) at SAFECOMP 2019</li>
-                                        <li>1st Internaional Workshop on AI Safety Engineering (WAISE) at SAFECOMP 2018</li>
-                                        <li>University of Bath, Department of Computer Science PhD Conference 2017</li>
-                                        <li>University of Bath, Department of Computer Science PhD Conference 2016</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3>Program Committee</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li>International Joint Conference on Artificial Intelligence&nbsp; 2020 (IJCAI-20)</li>
-                                        <li>European Conference on Artificial Intelligence 2020 (ECAI-20)</li>
-                                        <li>International Joint Conference on Artificial Intelligence&nbsp; 2019 (IJCAI-19) as SPC</li>
-                                        <li>Workshop at Safety in AI (SafeAI) at the AAAI 2019</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3>Journal Reviewing</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li>Nature Machine Intelligence</li>
-                                        <li>Journal on Artificial Intelligence Research (JAIR)</li>
-                                        <li>Journal of Science and Engineering Ethics</li>
-                                        <li>Journal of Artificial Intelligence Research</li>
-                                        <li>Interaction Studies</li>
-                                        <li>Connection Science</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" style="margin-top: 1%">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3>Grants Reviewing</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li>Swiss National Research Foundation (Call NFP-77 on Digital Transformation)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <div class="footer-basic">
-            <footer>
-                <p class="copyright">Andreas Theodorou © 2020</p>
-            </footer>
-        </div>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/script.min.js"></script>
-    </body>
 
-    </html>
+            <section id="education" class="items-group main-colour">
+                <div class="container">
+                    <h2 class="text-center items-heading">Education</h2>
+                    <div class="row item">
+                        <div class="col-md-6">
+                            <h4>Ph.D in Computer Science</h4>
+                            <span class="organization">University of Bath</span>
+                        </div>
+                        <div class="col-6 text-md-right text-lg-right">
+                            <span class="period">09/2015 - 05/2019</span>
+                        </div>
+                    </div>
+                    <div class="row item">
+                        <div class="col-md-6">
+                            <h4>BSc (Hons) Computing and IT&nbsp;</h4>
+                            <span class="organization">University of Surrey</span>
+                        </div>
+                        <div class="col-md-6 text-md-right text-lg-right">
+                            <span class="text-justify period">09/2011- 06/2015</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="items-group alt-colour">
+            <div class="container">
+                <h2 class="text-center items-heading">Work Experience</h2>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Postdoctoral Researcher</h4>
+                        <span class="organization">Umeå University</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right text-xl-right">
+                        <span class="period">06/2019 - Present</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-6">
+                        <h4>Research Engineer</h4>
+                        <span class="organization">Umeå University<br></span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right text-xl-right">
+                        <span class="text-right period">01/2019 - 06/2019</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Teaching Fellow</h4>
+                        <span class="organization">University of Bath</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">11/2017 - 03/2018</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Head Tutor</h4>
+                        <span class="organization">University of Bath</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">01/2016 - 11/2017</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Tutor</h4>
+                        <span class="organization">University of Bath</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">09/2015 - 01/2016</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Research Officer</h4>
+                        <span class="organization">University of Surrey</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">08/2014 - 07/2015</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Java Developer</h4>
+                        <span class="organization">IDBS</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">07/2013 - 08/2015</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="policymaking" class="items-group main-colour">
+            <div class="container">
+                <h2 class="text-center items-heading">Policymaking &amp; Leadership</h2>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>ART-AI Strategy Board</h4>
+                        <span class="organization">University of Bath</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right text-xl-right">
+                        <span class="period">01/2020 - Present</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-6">
+                        <h4>Ethics Board</h4>
+                        <span class="organization">ROXANNE H2020<br></span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right text-xl-right">
+                        <span class="text-right period">10/2019 - Present</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>IEEE P70xx Standards</h4>
+                        <span class="organization">University of Bath</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">11/2016 - Present</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>ISO JTC1/42</h4>
+                        <span class="organization">BSI ART/1delegation to ISO&nbsp;</span>
+                    </div>
+                    <div class="col-md-6 text-md-right text-lg-right">
+                        <span class="period">07/2017- 12/2019</span>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Other Contributions</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li></li>
+                            <li>Incoporated suggestions and comments in the <em>Cypriot National Strategy on AI</em></li>
+                            <li>Written evidence at the UK's Parliament AI APPG session on Education<br></li>
+                            <li>Feedback on IEEE Ethically-Alligned Design 1st Edition</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching" class="items-group alt-colour">
+            <h2 class="text-center items-heading">Teaching Experience</h2>
+            <div class="container">
+                <h3 class="text-center">Umeå University (Sweden)</h3>
+                <div class="row item">
+                    <div class="col-md-6">
+                        <h4>Lectures&nbsp;</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li></li>
+                            <li>Advance AI - 2020/21 (Scheduled)</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="text-center">University of Bath (UK)</h3>
+                <div class="row item">
+                   <div class="col-md-6">
+                    <h4>Head Tutor</h4>
+                    <p>(often involves duties of assignment creation and marking coordination)<br></p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li>Intelligent Cognitive Control Systems&nbsp;<strong>(CM30229/CM50230)</strong><br></li>
+                        <li>Principles of programming 1&nbsp;<strong>(CM10227/CM50258)</strong><br></li>
+                        <li>Principles of programming 2&nbsp;<strong>(CM10228)</strong><br></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row item">
+               <div class="col-md-6">
+                <h4>Tutorials / Lab Demonstrator</h4>
+                <p>(in addition to the above modules)<br></p>
+                <p></p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li>Databases&nbsp;<strong>(CM20255/CM50259)</strong><br></li>
+                </ul>
+            </div>
+        </div>
+        <h3 class="text-center">University of Surrey (UK)</h3>
+        <div class="row item">
+            <div class="col-md-6">
+                <h4>Lab Demonstrator</h4>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li>Artificial Intelligence (COM2028)</li>
+                    <li>Data Structures and Algorithms (COM1029)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="academic-service" class="items-group main-colour">
+    <div class="container">
+        <h2 class="text-center items-heading">Academic Service</h2>
+        <div class="row item">
+            <div class="col-md-6">
+                <h4>Workshop Organisation</h4>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li></li>
+                    <li>2nd Wokshop on&nbsp;AI for Social Good (AI4SG) 2020 at IJCAI-2020</li>
+                    <li>1st Wokshop on AI for Social Good (AI4SG) 2019 at IJCAI-2019<br></li>
+                    <li>Swedish AI Society Annual&nbsp; Symbosia (SAIS) 2019 as Doctoral Consortium Chair</li>
+                    <li></li>
+                    <li>2nd Internaional Workshop on AI Safety Engineering (WAISE) at SAFECOMP 2019</li>
+                    <li>1st Internaional Workshop on AI Safety Engineering (WAISE) at SAFECOMP 2018</li>
+                    <li>University of Bath, Department of Computer Science PhD Conference 2017</li>
+                    <li>University of Bath, Department of Computer Science PhD Conference 2016</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row item">
+
+            <div class="col-6">
+                <h4>Program Committee</h4>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li>International Joint Conference on Artificial Intelligence&nbsp; 2020 (IJCAI-20)</li>
+                    <li>European Conference on Artificial Intelligence 2020 (ECAI-20)</li>
+                    <li>International Joint Conference on Artificial Intelligence&nbsp; 2019 (IJCAI-19) as SPC</li>
+                    <li>Workshop at Safety in AI (SafeAI) at the AAAI 2019</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row item">
+
+            <div class="col-6">
+                <h4>Journal Reviewing</h4>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li>Nature Machine Intelligence</li>
+                    <li>Journal on Artificial Intelligence Research (JAIR)</li>
+                    <li>Journal of Science and Engineering Ethics</li>
+                    <li>Journal of Artificial Intelligence Research</li>
+                    <li>Interaction Studies</li>
+                    <li>Connection Science</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row item">
+
+            <div class="col-6">
+                <h4>Grants Reviewing</h4>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li>Swiss National Research Foundation (Call NFP-77 on Digital Transformation)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+</main>
+<div class="footer-basic">
+    <footer>
+        <p class="copyright">Andreas Theodorou © 2020</p>
+    </footer>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

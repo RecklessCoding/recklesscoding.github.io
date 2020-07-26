@@ -17,6 +17,17 @@
   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
   <link rel="stylesheet" href="assets/css/styles.min.css">
+  <bibtex src="files/MyTalks.bib"></bibtex>
+  <script>
+        function reset() {
+         $("select").each(function () {
+          localStorage.setItem($(this).attr("id"),"");
+          $(this).val("");
+        }); 
+         $("#searchbar").val("");
+         $("#searchbar").trigger('change');
+       }
+  </script>
 </head>
 
 <body>
@@ -52,15 +63,15 @@
     </div>
   </div>
   <main>
-    <section id="publi-intro">
-      <div class="container">
+    <section id="intro-outreach">
+      <div class="container first-block">
         <div class="text-primary float-none" style="margin-top: 1%">
           <p class="text-justify"><strong>Due to COVID-19,&nbsp; unfortunately, various talks have been cancelled.</strong><br><br>The long-term aim of this page is to keep a chronicle of my <em>talks </em>(invited or peer reviewed), <em>guest lectures</em>, <em>tutorials</em>,
           and provide links to the presentations themselves.</p>
         </div>
       </div>
     </section>
-    <section id="talks-search">
+    <section id="talks-search" class="alt-colour">
       <div class="container searchbar">
         <div class="row no-gutters justify-content-center align-items-center" style="margin-bottom: 1%">
           <div class="col-auto col-xl-auto align-self-center">
@@ -71,9 +82,6 @@
           </div>
           <div class="col-auto col-xl-auto">
             <div><select class="bg-secondary bibtex_search bibtex_generate_talktype form-control" style="margin-left: 4px; color: #FFFFFF" search="talktype" bibtex_sort_options=""><option value="" selected="">All Types</option></select></div>
-          </div>
-          <div class="col-auto col-xl-auto">
-            <div><select class="bg-secondary bibtex_search bibtex_generate_keywords form-control" style="margin-left: 4px; color: #FFFFFF" search="keywords"><option value="">All Keywords</option></select></div>
           </div>
           <div class="col-auto col-xl-auto">
             <div><select class="bg-secondary bibtex_search bibtex_generate_upcoming form-control" style="margin-left: 4px; color: #FFFFFF" search="upcoming"><option value="">Show all talks</option></select></div>
@@ -87,18 +95,7 @@
       </div>
     </section>
     <section id="talks-list">
-      <div class="container"> <script>
-        function reset() {
-         $("select").each(function () {
-          localStorage.setItem($(this).attr("id"),"");
-          $(this).val("");
-        }); 
-         $("#searchbar").val("");
-         $("#searchbar").trigger('change');
-       }
-     </script>
-
-     <bibtex src="/files/MyTalks.bib"></bibtex>
+      <div class="container">
 
      <div class="bibtex_structure">
       <div class="group year" extra="DESC string">
