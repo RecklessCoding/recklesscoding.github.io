@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -8,15 +7,21 @@
   <meta name="twitter:title" content="Andreas Theodorou | Responsible AI Researcher">
   <meta name="description" content="Dr. Andreas Theodorou is a Postdoctoral Researcher in Responsible AI.">
   <meta name="twitter:card" content="summary">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+  <!-- Fonts -->
   <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-  <link rel="stylesheet" href="assets/css/styles.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <!-- Site-wide CSS -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/footer.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Used for the Navbar -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="assets/css/gradient-navbar.min.css"> 
+  <!-- Used for the page header -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+  <link rel="stylesheet" href="assets/css/jumbotron-particles.min.css">
+  <link rel="stylesheet" href="assets/css/publications.css"> 
   <bibtex src="files/MyTalks.bib"></bibtex>
   <script>
         function reset() {
@@ -27,17 +32,26 @@
          $("#searchbar").val("");
          $("#searchbar").trigger('change');
        }
-  </script>
+  </script>  
 </head>
 
 <body>
-<nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
+ 
+         <!-- Navbar -->
+        <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
+        <script>
+            $(function(){
+                $("#app-navbar").load("navbar.html");
+            });
+        </script>
+        <!-- Name page content header -->
+        <div id="page-header"></div>
+        <script>
+            $(function(){
+                $("#page-header").load("pageHeader.html");
+            });
+        </script>
 
-<script>
-  $(function(){
-    $("#app-navbar").load("navbar.html");
-  });
-</script>
   <div class="jumbotron jumbotron-fluid jumbotron-main"><script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 
