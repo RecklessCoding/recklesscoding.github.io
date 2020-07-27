@@ -15,68 +15,24 @@
   <link rel="stylesheet" href="assets/css/footer.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <!-- Used for the Navbar -->
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="assets/css/gradient-navbar.min.css"> 
-  <!-- Used for the page header -->
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-  <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+  <!-- Used for the page header --> 
   <link rel="stylesheet" href="assets/css/jumbotron-particles.min.css">
-  <link rel="stylesheet" href="assets/css/publications.css"> 
-  <bibtex src="files/MyTalks.bib"></bibtex>
-  <script>
-        function reset() {
-         $("select").each(function () {
-          localStorage.setItem($(this).attr("id"),"");
-          $(this).val("");
-        }); 
-         $("#searchbar").val("");
-         $("#searchbar").trigger('change');
-       }
-  </script>  
+  <!-- Used for page-specific elements -->
+  <link rel="stylesheet" href="assets/css/publications.css">
 </head>
-
 <body>
- 
-         <!-- Navbar -->
-        <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
-        <script>
-            $(function(){
-                $("#app-navbar").load("navbar.html");
-            });
-        </script>
-        <!-- Name page content header -->
-        <div id="page-header"></div>
-        <script>
-            $(function(){
-                $("#page-header").load("pageHeader.html");
-            });
-        </script>
+  <!-- Navbar -->
+  <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
+  <!-- Name page content header -->
+  <div id="page-header"></div>
 
-  <div class="jumbotron jumbotron-fluid jumbotron-main"><script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
-
-    <div id="particles-js">
-     <canvas class="particles-js-canvas-el" width="1409" height="319" style="width: 100%; height: 100%;"></canvas>
-   </div>
-   <div class="container center-vertically-holder" style="margin-top:-20px;">
-    <div class="row center-vertically">
-      <div class="col-md-8 offset-sm-0 offset-md-2 text-center" style="margin-top: 20px;margin-bottom: 0px;">
-        <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
-        <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial Intelligence</strong></p>
-        <p class="research-interest" style="margin-bottom: -12px;">AI&nbsp;Governance | Transparency | Systems AI | HRI</p>
-      </div>
-      <div class="col text-center d-xl-flex justify-content-xl-center align-items-xl-center" style="color: #ffffff;"><a href="https://twitter.com/RecklessCoding"><i class="fab fa-twitter-square" style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a>
-        <a
-        href="https://scholar.google.co.uk/citations?user=JEw-BycAAAAJ&amp;hl=en" style="font-family: Academicons;color: rgba(223,232,238,0.85);font-size: 11px;"><i class="ai ai-google-scholar-square ai-3x"></i></a><a href="https://www.linkedin.com/in/andtheodorou"><i class="fab fa-linkedin" style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a></div>
-      </div>
-    </div>
-  </div>
-  <div class="jumbotron text-center" id="transparency-intro-1" style="padding: 2rem 0rem 2rem 0rem;margin-bottom: 0rem;">
-    <div class="container">
-      <h1>Outreach &amp; Dissemination</h1>
-    </div>
-  </div>
   <main>
+    <section class="jumbotron text-center" id="heading-outreach" style="padding: 2rem 0rem 2rem 0rem;margin-bottom: 0rem;">
+      <div class="container">
+        <h1>Outreach &amp; Dissemination</h1>
+      </div>
+    </section>
     <section id="intro-outreach">
       <div class="container first-block">
         <div class="text-primary float-none" style="margin-top: 1%">
@@ -110,55 +66,71 @@
     </section>
     <section id="talks-list">
       <div class="container">
-
-     <div class="bibtex_structure">
-      <div class="group year" extra="DESC string">
-        <h4 class="title"></h4>
-        <div style="padding-bottom:0px;"></div>
-        <div class="sort MONTH" extra="ASC date">
-         <div class="templates"></div>
-       </div>
-       <div style="padding-bottom:15px;"></div>
-     </div>
-   </div>
-
-   <div id="bibtex_display" class="publicationsList" callback="reset()">
-    <div class="if bibtex_template" style="display: none;">
-      <div class="publicationEntry">
-        <span class="if upcoming"><span class="upcomingTalk">Upcoming</span></span>
-        <span class="if TALKTYPE==Invited Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype journalLabel"></span></a></span>
-        <span class="if TALKTYPE==Peer-reviewed Contribution"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="confLabel">Peer-reviewed</span></a></span>
-        <span class="if TALKTYPE==Guest Lecture"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype bookChLabel"></span></a></span>
-        <span class="if TALKTYPE==Poster"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype techLabel">Poster</span></a></span>
-        <span class="if TALKTYPE==Keynote"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-        <span class="if TALKTYPE==Panel"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-        <span class="if TALKTYPE==Tutorial"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-        <span class="if TALKTYPE==Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
-
-        <b><span class="title"> </span></b>.          
-        <span class="if event "><em><span class="event"></span></em>,</span>
-        <span class="if institution"><span class="institution"></span>,</span>
-        <span class="if day"><span class="day"></span> </span>
-        <span class="if month"><span class="month"></span>,</span>
-        <span class="if year"><span class="year"></span>.</span>
-        <span class="if url"><a class="url">[View Online]</a></span>  
-        <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
-        <span class="if keywords"><span class="keywords" style="display:none"></span></span>
-        <span class="upcoming" style="display:none"></span>
+        <div class="bibtex_structure">
+          <div class="group year" extra="DESC string">
+            <h4 class="title"></h4>
+            <div style="padding-bottom:0px;"></div>
+            <div class="sort MONTH" extra="ASC date">
+              <div class="templates"></div>
+            </div>
+            <div style="padding-bottom:15px;"></div>
+          </div>
+        </div>
+        <div id="bibtex_display" class="publicationsList" callback="reset()">
+          <div class="if bibtex_template" style="display: none;">
+            <div class="publicationEntry">
+              <span class="if upcoming"><span class="upcomingTalk">Upcoming</span></span>
+              <span class="if TALKTYPE==Invited Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype journalLabel"></span></a></span>
+              <span class="if TALKTYPE==Peer-reviewed Contribution"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="confLabel">Peer-reviewed</span></a></span>
+              <span class="if TALKTYPE==Guest Lecture"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype bookChLabel"></span></a></span>
+              <span class="if TALKTYPE==Poster"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype techLabel">Poster</span></a></span>
+              <span class="if TALKTYPE==Keynote"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+              <span class="if TALKTYPE==Panel"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+              <span class="if TALKTYPE==Tutorial"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+              <span class="if TALKTYPE==Talk"><a onclick="(new BibTeXSearcher()).searcher(this.innerText || this.textContent, true)"><span class="talktype thesisLabel"></span></a></span>
+              <b><span class="title"> </span></b>.          
+              <span class="if event "><em><span class="event"></span></em>,</span>
+              <span class="if institution"><span class="institution"></span>,</span>
+              <span class="if day"><span class="day"></span> </span>
+              <span class="if month"><span class="month"></span>,</span>
+              <span class="if year"><span class="year"></span>.</span>
+              <span class="if url"><a class="url">[View Online]</a></span>  
+              <span class="if bibtextypekey"><span class="bibtextypekey" style="display:none"></span></span>
+              <span class="if keywords"><span class="keywords" style="display:none"></span></span>
+              <span class="upcoming" style="display:none"></span>
+            </div>
+            <br>
+          </div>    
+        </div>
       </div>
-      <br>
-    </div>    
-  </div></div>
-</section>
-</main>
-<div class="footer-basic">
-  <footer>
-    <p class="copyright">Andreas Theodorou © 2020</p>
-  </footer>
-</div>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/script.min.js"></script>
+    </section>
+  </main>
+  <div class="footer-basic">
+    <footer>
+      <p class="copyright">Andreas Theodorou © 2020</p>
+    </footer>
+  </div>
+  <!-- Scripts loaded last to optimise loading time of the page -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    $(function(){
+      $("#app-navbar").load("navbar.html");
+      $("#page-header").load("pageHeader.html");
+    });
+  </script>
+  <script src="assets/js/bibtex_js.js"></script>
+  <bibtex src="files/MyTalks.bib"></bibtex>
+  <script>
+    function reset() {
+      $("select").each(function () {
+        localStorage.setItem($(this).attr("id"),"");
+        $(this).val("");
+      }); 
+      $("#searchbar").val("");
+      $("#searchbar").trigger('change');
+    }
+  </script>
 </body>
-
 </html>
