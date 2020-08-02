@@ -1416,7 +1416,7 @@ var defaultTemplate = "<div class=\"bibtex_template\">" +
                 "<span class=\"abstract\"></span>\n"+
             "</div>\n"+
         "</div>\n"+
-      "</div>;\n"+
+      "</div>\n"+
     "</div>";
 
 // check whether or not jquery is present
