@@ -8,138 +8,102 @@
     <meta name="twitter:title" content="Andreas Theodorou | Responsible AI Researcher">
     <meta name="description" content="Dr. Andreas Theodorou is a Postdoctoral Researcher in Responsible AI.">
     <meta name="twitter:card" content="summary">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/academicons.min.css">
-    <link rel="stylesheet" href="assets/css/footer.min.css">
-    <link rel="stylesheet" href="assets/css/jumbotron-particles.min.css"> 
-    <link rel="stylesheet" href="assets/css/gradient-navbar.min.css"> 
-    <link rel="stylesheet" href="assets/css/general.css">
-    <link rel="stylesheet" href="assets/css/publications.css">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/Team-Clean.css">    
-    <bibtex src="files/MyPublications.bib"></bibtex>
+      <!-- Fonts -->
+      <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+      <!-- Site-wide CSS -->
+      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/footer.min.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <!-- Used for the Navbar -->
+      <link rel="stylesheet" href="assets/css/gradient-navbar.min.css"> 
+      <!-- Used for the page header -->
+      <link rel="stylesheet" href="assets/css/jumbotron-particles.min.css">
+      <!-- Used for page-specific elements -->
+      <link rel="stylesheet" href="assets/css/publications.css"> 
+      <link rel="stylesheet" href="assets/css/team-clean.css"> 
 </head>
 
 <body>
-<nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar"
-     style="font-size: 20px;text-decoration: none;"></nav>
+  <!-- Navbar -->
+  <nav class="navbar navbar-light navbar-expand-lg float-none" id="app-navbar" style="font-size: 20px;text-decoration: none;"></nav>
+  <!-- Name page content header -->
+  <div id="page-header"></div>
 
-<script>
-    $(function () {
-        $("#app-navbar").load("navbar.html");
-    });
-</script>
-
-<div class="jumbotron jumbotron-fluid jumbotron-main">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
-
-    <div id="particles-js">
-        <canvas class="particles-js-canvas-el" width="1409" height="319" style="width: 100%; height: 100%;"></canvas>
+<div class="jumbotron text-center" id="heading-project-transparency" style="padding: 2rem 0rem 2rem 0rem;margin-bottom: 0rem;">
+    <div class="container">
+        <h1>Transparency in AI</h1>
+        <p class="lead text-center" style="margin-bottom: 0px;">"<strong>Robots are manufactured artefacts.</strong>
+            They should not be designed in a deceptive way to exploit vulnerable users; instead their <strong>machine
+                nature should be transparent</strong>." - <em>EPSRC&nbsp;Principles of Robotics</em></p>
     </div>
-    <div class="container center-vertically-holder" style="margin-top:-20px;">
-        <div class="row center-vertically">
-            <div class="col-md-8 offset-sm-0 offset-md-2 text-center" style="margin-top: 20px;margin-bottom: 0px;">
-                <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
-                <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial
-                    Intelligence</strong></p>
-                <p class="research-interest" style="margin-bottom: -12px;">AI&nbsp;Governance | Transparency | Systems
-                    AI | HRI</p>
+</div>
+
+<section class="items-group main-colour">
+    <div class="container">
+        <h2 class="text-center items-heading">What is <em>transparency</em>?</h2>        
+            <div class="row item">
+                <p>
+                    We defined transparency as having meaningful information of a system's status at any specific moment or period of time <a data-toggle="collapse" href="#Theodorou2017ConnectionScience" role="button"aria-expanded="false" aria-controls="Theodorou2017ConnectionScience"> (Theodorou <em>et al.</em>, 2017)</a>. In layman's terms, the direct workings of the system should be made apparent—visible and comprehensible. Transparency is, therefore, the property of a system whereby it is possible to trace <em>responsibility</em> and, if necessary, assign <em>accountability</em><a data-toggle="collapse" href="#BrysonTheodorou2019" role="button"aria-expanded="false" aria-controls="BrysonTheodorou2019"> (Bryson and Theodorou, 2017)</a>. Moreover, where there is transparency, there does not need to be blind trust (or distrust) to the system. The user is informed of the status—and limitations—of the system, enabling calibration of trust.
+                </p>
+                <p>
+                    In later works, we expanded our definition to include: 1) having access, even if so in the form of code or a static manual, to <em>general principles by which decisions are made </em>; and 2) any physical cues in case of embodied systems <a data-toggle="collapse" href="#Theodorou2019Thesis" role="button"aria-expanded="false" aria-controls="Theodorou2019Thesis"> (Theodorou, 2019)</a>. Our high-level definition is designed such as to allow context-specific implementations of transparency; i.e. accommodate a range of systems, stakeholders, and socio-legal factors.
+                </p>
+        </div>
+        <div class="collapse" id="Theodorou2017ConnectionScience">
+            <div class="card card-body">
+                <div class="bibtex_display" bibtexkey="Theodorou2017ConnectionScience">
+                </div>
             </div>
-            <div class="col text-center d-xl-flex justify-content-xl-center align-items-xl-center"
-                 style="color: #ffffff;"><a href="#"><i class="fab fa-twitter-square"
-                                                        style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a><a
-                    href="#"
-                    style="font-family: Academicons;color: rgba(223,232,238,0.85);font-size: 11px;"><i
-                    class="ai ai-google-scholar-square ai-3x"></i></a><a href="#"><i class="fab fa-linkedin"
-                                                                                     style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a>
+        </div>
+        <div class="collapse" id="Theodorou2019Thesis">
+            <div class="card card-body">
+                <div class="bibtex_display" bibtexkey="Theodorou2019Thesis">
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="BrysonTheodorou2019">
+            <div class="card card-body">
+                <div class="bibtex_display" bibtexkey="BrysonTheodorou2019">
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="jumbotron text-center" id="transparency-intro" style="padding: 2rem 0rem 1rem 0rem;margin-bottom: 1rem;">
+</section>
+
+<section class="items-group alt-colour">
     <div class="container">
-        <h1>Transparency</h1>
-        <p class="lead text-center" style="margin-bottom: 0px;">"<strong>Robots are manufactured artefacts.</strong>
-            They should not be designed in a deceptive way to exploit vulnerable users; instead their <strong>machine
-                nature should be transparent</strong>." - <em>EPSRC&nbsp;Principles of Robotics</em><br><br></p>
+        <h2 class="text-center items-heading"> Designing User-centric Transparent Systems </h2>
+        <div class="row item">
+            <p>
+                First, it needs to be clear: there is no 'magic' one-size-fits-all solution <a data-toggle="collapse" href="#Theodorou2017ConnectionScience2" role="button"aria-expanded="false" aria-controls="Theodorou2017ConnectionScience2"> (Theodorou <em>et al.</em>, 2017)</a>. Different stakeholders have distinct needs; information relevant for one user may be irrelevant, or even harmful, for another. System developers need to consider both the actual relevance and level of abstraction of the information that they are exposing. Moreover, the means 
+            </p>
+            <p>
+                It should be clear, the goal of transparency is never complete comprehension. Rather, the goal of transparency is providing sufficient information to ensure that <em>at least</em> human accountability, and, therefore, control can be maintained <a data-toggle="collapse" href="#BrysonTheodorou2019" role="button"aria-expanded="false" aria-controls="BrysonTheodorou2019"> (Bryson and Theodorou, 2017)</a>.  
+            </p>
+        </div>
+        <div class="collapse" id="Theodorou2017ConnectionScience2">
+            <div class="card card-body">
+                <div class="bibtex_display" bibtexkey="Theodorou2017ConnectionScience">
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="BrysonTheodorou2019">
+            <div class="card card-body">
+                <div class="bibtex_display" bibtexkey="BrysonTheodorou2019">
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section> 
+
+
 <div class="research-showcase">
     <div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2 class="text-center">What is <em>transparency</em>?</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div>
-
-                        <div class="bibtex_display" bibtexkey="Theodorou2017">
-                        </div>
-
-                        <p>
-                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                               aria-expanded="false" aria-controls="collapseExample">
-                                Link with href
-                            </a>
-
-                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button"
-                               aria-expanded="false" aria-controls="collapseExample">
-                                Link with href 2
-                            </a>
-
-                            <a class="btn btn-primary" data-toggle="collapse" href="#Theodorou2017ConnectionScience" role="button"
-                               aria-expanded="false" aria-controls="Theodorou2017ConnectionScience">
-                                Link with href 2
-                            </a>
-                        </p>
-                        <div class="collapse" id="collapseExample">
-                            <div class="card ">
-                                <span>Journal</span> Theodorou A., Wortham R. H., and Bryson J. J.<b>Designing and
-                                implementing transparency for real time inspection of autonomous robots.</b> Connection
-                                Science, 29, pages 230-241, 2017.<a href="">[doi]</a>
-                            </div>
-                        </div>
-                         
-                        <div id="bibtex_errors"></div>
-
-                        <div class="collapse" id="collapseExample2">
-                            <div class="card card-body">
-                                <div class="bibtex_display" bibtexkey="WilsonTheodorou2019">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="collapse" id="Theodorou2017ConnectionScience">
-                            <div class="card card-body">
-                                <div class="bibtex_display" bibtexkey="Theodorou2017ConnectionScience">
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <h2 class="text-center">ABOD3</h2>
+                    <h3 class="text-center">ABOD3</h3>
                 </div>
             </div>
         </div>
@@ -205,43 +169,25 @@
         </div>
     </div>
 </div>
-<div class="footer-basic">
-    <footer>
-        <p class="copyright">Andreas Theodorou © 2020</p>
-    </footer>
-</div>
-<div class="jumbotron jumbotron-fluid jumbotron-main">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+ 
 
-    <div id="particles-js">
-        <canvas class="particles-js-canvas-el" width="1409" height="319" style="width: 100%; height: 100%;"></canvas>
-    </div>
-    <div class="container center-vertically-holder" style="margin-top:-20px;">
-        <div class="row center-vertically">
-            <div class="col-md-8 offset-sm-0 offset-md-2 text-center" style="margin-top: 20px;margin-bottom: 0px;">
-                <h4 id="3"><strong>Dr. Andreas Theodorou</strong></h4>
-                <p class="short-description"><strong>Postdoctoral Researcher in Responsible Artificial
-                    Intelligence</strong></p>
-                <p class="research-interest" style="margin-bottom: -12px;">AI&nbsp;Governance | Transparency | Systems
-                    AI | HRI</p>
-            </div>
-            <div class="col text-center d-xl-flex justify-content-xl-center align-items-xl-center"
-                 style="color: #ffffff;"><a href="https://twitter.com/RecklessCoding"><i class="fab fa-twitter-square"
-                                                                                         style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;text-align: center;/*border-style: none;*/line-height: 60px;"></i></a>
-                <a
-                        href="https://scholar.google.co.uk/citations?user=JEw-BycAAAAJ&amp;hl=en"
-                        style="font-family: Academicons;color: rgba(223,232,238,0.85);font-size: 11px;"><i
-                        class="ai ai-google-scholar-square ai-3x"></i></a><a
-                        href="https://www.linkedin.com/in/andtheodorou"><i class="fab fa-linkedin"
-                                                                           style="font-size: 32px;display: inline-block;color: rgba(223,232,238,0.85);margin: 0 10px;width: 60px;height: 60px;/*border: 1px solid #c8ced7;*/text-align: center;/*border-style: initial;*/line-height: 60px;"></i></a>
-            </div>
-        </div>
-    </div>
+<!-- Footer -->
+<div class="footer-basic">
+  <footer>
+    <p class="copyright">Andreas Theodorou © 2020</p>
+  </footer>
 </div>
+<!-- Scripts loaded last to optimise loading time of the page -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/script.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  $(function(){
+    $("#app-navbar").load("navbar.html");
+    $("#page-header").load("pageHeader.html");
+  });
+</script>
+<script src="assets/js/bibtex_js.js"></script>
+<bibtex src="files/MyPublications.bib"></bibtex>
 </body>
-
 </html>
