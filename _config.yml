@@ -343,6 +343,7 @@ filtered_bibtex_keywords:
     slides,
     supp,
     video,
+    keywords,
     website,
   ]
 
