@@ -1,10 +1,10 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"wortham":
+  - firstname: ["Rob", "Rob H.", "R.", "R. H."]
+    url: https://robwortham.com
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"bryson":
+  - firstname: ["Joanna Joy", "J. J.", "Joanna. J.", "Joanna J. Bryson"]
+    url: https://www.joannajbryson.org/
 
 "rosen":
   - firstname: ["Nathan", "N."]
