@@ -2,7 +2,10 @@
   color: "#00369f"
 
 "Journal":
-  color: "#ee740a"
+  color: "#ee0a0a"
+
+"Editorial":
+  color: "#ff6344"
 
 "Conference":
   color: "#009f36"
@@ -16,8 +19,8 @@
 
 "Book":
   url: 
-  color: "#fd0000"
+  color: "#fda900"
 
 "Book Chapter":
   url: 
-  color: "#fde600"
+  color: "#fd9800"
