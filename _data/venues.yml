@@ -1,15 +1,13 @@
-"Workshop":
-  url: https://aapt.scitation.org/journal/ajp
+"Proceedings":
   color: "#00369f"
 
 "Journal":
-  url: https://journals.aps.org/
+  color: "#ee740a"
 
 "Conference":
   color: "#009f36"
 
 "arXiv":
-  url: https://arxiv.org/
   color: "#494F55"
 
 "Under Review":
@@ -17,5 +15,9 @@
   color: "#494F55"
 
 "Book":
+  url: 
+  color: "#fd0000"
+
+"Book Chapter":
   url: 
   color: "#fde600"
