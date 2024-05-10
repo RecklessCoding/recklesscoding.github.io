@@ -17,11 +17,11 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Dr. Andreas Theodorou is an associate professor in computer science at the Universidad Politécnica de Cataluña · Barcelona Tech - UPC. His main research focuses on the techniques and tools needed for the design, implementation, and deployment of intelligent autonomous systems such as to ensure their trustworthiness. 
+I am an associate professor in computer science at the Universidad Politécnica de Cataluña · Barcelona Tech - UPC. My research focuses on the techniques and tools needed for the design, implementation, and deployment of intelligent autonomous systems such as to ensure their trustworthiness. Over the years, I have been a PI and co-PI in projects related to eXplainable AI (XAI), assessment and auditing of AI systems, and interdisciplinary perspectives in AI.
 
-In parallel to his current post, Andreas is an active member of various AI Governance initiatives (e.g. IEEE SA’ P7001 series, ISO JTC1/42, BSI ART/1) and of AI Ethics boards (e.g. ROXANNE project). 
+At UPC, I am working towards developing the new <a href="https://www.upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems">Master's degree in Machine Learning and Cybersecurity for Internet-Connected Systems</a>. In this role, I am developing a series of courses in fundamental AI, reactive planning, and AI governance. In parallel to my current post, I am an active member of AI Governance initiatives (e.g. IEEE SA’ P70xx series). 
 
-For a full list of publications, please consult his Google Scholar.
+Prior to joining UPC, I was one of the research leads in the <a href="https://www.umu.se/en/research/groups/responsible-artificial-intelligence/">Responsible AI group</a> run by <a href="https://people.cs.umu.se/virginia/">Prof. Virginia Dignum </a> at Umeå University and affiliated faculty to the <a href="http://wasp-sweden.org"> Wallenberg AI, Autonomous Systems and Software Program (WASP) </a>, where I also undertaken my postdoc. I completed my PhD at the University of Bath under the supervision of <a href="https://www.joannajbryson.org/">Prof. Joanna J. Bryson</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
