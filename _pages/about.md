@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='www.upc.edu'>Universidad Politécnica de Cataluña·Barcelona Tech - UPC</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am an associate professor in computer science at the Universidad Politécnica de Cataluña·Barcelona Tech - UPC. My research focuses on the techniques and tools needed for the design, implementation, and deployment of intelligent autonomous systems such as to ensure their trustworthiness. Over the years, I have been a PI and co-PI in projects related to eXplainable AI (XAI), assessment and auditing of AI systems, and interdisciplinary perspectives in AI.
+I am a tenure-track associate professor in computer science at the <a href="https://www.upc.edu/en?set_language=en">Universidad Politécnica de Cataluña·Barcelona Tech (UPC)</a>. My research focuses on the techniques and tools needed for the design, implementation, and deployment of intelligent autonomous systems such as to ensure their trustworthiness. Over the past decade, I have been a PI and co-PI in projects related to eXplainable AI (XAI), assessment and auditing of AI systems, and interdisciplinary perspectives in AI.
 
 At UPC, I am working towards developing the new <a href="https://www.upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems">Master's degree in Machine Learning and Cybersecurity for Internet-Connected Systems</a>. In this role, I am developing a series of courses in fundamental AI, reactive planning, and AI governance. In parallel to my current post, I am an active member of AI Governance initiatives (e.g. IEEE SA’ P70xx series). 
 
