@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Andreas Theodorou
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
       value: English, Greek, Catalan
 

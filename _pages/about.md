@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: about
 permalink: /
 subtitle: <a href='www.upc.edu'>Universidad Politécnica de Cataluña·Barcelona Tech - UPC</a>. Address. Contacts. Moto. Etc.
