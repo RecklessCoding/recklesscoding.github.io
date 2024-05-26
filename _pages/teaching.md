@@ -2,8 +2,8 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: As a learner myself, I have been enjoying teaching and trying to keep a good portion of my time in education-related activities. In this page, you will find a brief listing of the courses (or units in the British academic lingo) that I have participated in. Nowadays, all of my teaching time is focused on graduate-level students. If you are thinking of doing a degree project with me, please see the dedicated page about that.
-
+description: As a learner myself, I have been enjoying teaching and trying to keep a good portion of my time in education-related activities. In this page, you will find a brief listing of the courses (or units in the British academic lingo) that I have participated in. Nowadays, all of my teaching time is focused on graduate-level students. If you are thinking of doing a degree project with me, please see this dedicated page about that.
+nav: true
 nav_order: 3
 ---
 <!-- 
