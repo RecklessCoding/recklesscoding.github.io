@@ -1,23 +1,45 @@
 "Governance":
   color: "#851868"
 
-"MAS":
-  color: "#fa761e"
+"Agents":
+  color: "#851868"
 
 "HRI":
-  color: "#fad51e"
+  color: "#851868"
+
+"Pedagogy":
+  color: "#851868"  
+
+
 
 "Cogn. Arch.":
-  color: "#54151b"
+  color: "#ff7802"
 
 "Variable Autonomy":
-  color: "#541543"
+  color: "#ff7802"
+
+"MAS":
+  color: "#ff7802"
+
 
 "XAI":
   color: "#154e54"
 
 "Transparency":
-  color: "#153154"
+  color: "#154e54"
+
+"Fairness":
+  color: "#154e54"
   
-"Audit or V&V":
-  color: "#153154"
+"Audit":
+  color: "#154e54"
+
+
+"Argumentation":
+  color: "#5dd655"
+  
+"BBAI":
+  color: "#5dd655"
+  
+"Deontic Logic":
+  color: "#5dd655"
