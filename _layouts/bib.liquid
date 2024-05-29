@@ -26,25 +26,25 @@
         {% endif %}
       {% endif %}
       {%- if entry.keyword -%}
-        {%- if site.data.venues[entry.abbr] -%}
+        {%- if site.data.venues[entry.keyword] -%}
           {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {% if site.data.venues[entry.keyword].color != blank %}
+            {% assign venue_style = site.data.venues[entry.keyword].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
-          <abbr
+          <keyword
             class="badge rounded w-100"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
           >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{site.data.venues[entry.abbr].url}}">{{ entry.abbr }}</a>
+            {% if site.data.venues[entry.keyword].url %}
+              <a href="{{site.data.venues[entry.keyword].url}}">{{ entry.keyword }}</a>
             {% else %}
-              <div>{{- entry.abbr -}}</div>
+              <div>{{- entry.keyword -}}</div>
             {% endif %}
-          </abbr>
+          </keyword>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <keyword class="badge rounded w-100">{{ entry.keyword }}</keyword>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
