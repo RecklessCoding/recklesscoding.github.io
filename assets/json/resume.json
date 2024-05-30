@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Universidad Politécnica de Cataluña·Barcelona Tech (UPC)",
+      "name": "Universidad Politécnica de Cataluña·BarcelonaTech (UPC)",
       "position": "Associate Professor",
       "url": "https://upc.edu",
       "startDate": "2024-01-01",
@@ -47,10 +47,21 @@
   "education": [
     {
       "institution": "University of Bath, UK",
-      "location": "Zurich, Switzerland",
+      "location": "Bath, UK",
       "url": "https://www.bath.ac.uk/",
       "area": "Computer Science",
       "studyType": "PhD",
+      "startDate": "1905-01-01",
+      "endDate": "2019-07-17",
+      "score": "",
+      "courses": ["Theory of Relativity"]
+    }
+    {
+      "institution": "University of Surrey, UK",
+      "location": "Guildford, UK",
+      "url": "https://www.surrey.ac.uk/",
+      "area": "",
+      "studyType": "BSc",
       "startDate": "1905-01-01",
       "endDate": "2019-07-17",
       "score": "",
