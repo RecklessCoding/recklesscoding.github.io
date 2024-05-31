@@ -6,6 +6,7 @@
     {% else %}
       {% assign currentInstitution = "ERROR" %}
     {% endif %}
+    
     {% if prevInstitution != currentInstitution %}
       <li class="list-group-item">
         <div class="row">
@@ -45,6 +46,7 @@
                       </td>
                       <td class="institution"><h6 class="title font-weight-bold" style = "margin-bottom:0"> {{ content.institution }} </h6> </td>
                     </tr>
+                    {% assign prevInstitution = currentInstitution %}
                   {% endif %}
                   {% if content.department %}
                     <tr>
