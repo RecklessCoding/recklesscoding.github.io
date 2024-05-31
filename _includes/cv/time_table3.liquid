@@ -10,6 +10,22 @@
     {% if prevInstitution != currentInstitution %}
       <li class="list-group-item">
         <div class="row">
+          <div class="col-xs-2 cl-sm-2 text-center" style="width: 75px">
+            <table class="table-cv">
+              <tbody>
+                {% if content.location %}
+                <tr>
+                  <td>
+                    <p class="location">
+                      <i class="fa-solid fa-location-dot iconlocation"></i>
+                      {{ content.location }}
+                    </p>
+                  </td>
+                </tr>
+              {% endif %}
+            </tbody>
+          </table>          
+          </div> 
           {% if content.year %}
             <div class="col-xs-2 cl-sm-2 text-center" style="width: 75px">
               <table class="table-cv">
@@ -21,16 +37,6 @@
                       </span>
                     </td>
                   </tr>
-                  {% if content.location %}
-                    <tr>
-                      <td>
-                        <p class="location">
-                          <i class="fa-solid fa-location-dot iconlocation"></i>
-                          {{ content.location }}
-                        </p>
-                      </td>
-                    </tr>
-                  {% endif %}
                 </tbody>
               </table>
             </div>
