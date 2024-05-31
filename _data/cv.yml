@@ -17,7 +17,7 @@
       items:
         - Description 1.
         - Description 2.
-        
+
 - title: Education
   type: time_table2
   contents:
@@ -43,9 +43,10 @@
 - title: Experience
   type: time_table3
   contents:
-    - title: Associate Professor
+    - title: Profesor Agregado Assimilar (Assimilated Associate Professor)
       institution: Universitat Politècnica de Catalunya·Barcelona Tech (UPC), ES
       year: 2024 
+      location: Spain
       description:
         - Description 1.
         - Description 2.
@@ -56,14 +57,16 @@
     
     - title: Forskare (Research Fellow)
       institution: Umeå University
-      year: 1933
+      location: Sweden
+      year: 2022
       description:
         - Description 1.
         - Description 2.
   
-    - title: Forskare (Research Fellow)
+    - title: Postdoktor (Postdoctoral Fellow)
       institution: Umeå University
-      year: 1933
+      year: 2019
+      location: Sweden
       description:
         - Description 1.
         - Description 2.
