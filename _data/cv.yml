@@ -9,7 +9,7 @@
       value: Greek (native), English (bilingual), Catalan (A2)
 
 - title: Education
-  type: time_table
+  type: time_table2
   contents:
     - title: PhD in Computer Science
       institution: University of Bath, UK
@@ -29,11 +29,11 @@
         - Description 2.
 
 - title: Experience
-  type: time_table
+  type: time_table2
   contents:
     - title: Associate Professor
       institution: Universitat Politècnica de Catalunya·Barcelona Tech (UPC), ES
-      year: 2024 - 
+      year: 2024 
       description:
         - Description 1.
         - Description 2.
