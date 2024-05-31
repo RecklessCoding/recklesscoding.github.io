@@ -24,12 +24,6 @@ jobs:
       - name: Prettier Check 🔎
         id: prettier
         run: npx prettier . --check
-        if: ${{ failure() }}
-        run: |
-          npx prettier . --run
-          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
-          npm install -g diff2html-cli
-          diff2html -i file -s side -F diff.html -- diff.txt
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
         if: ${{ failure() }}
