@@ -38,6 +38,8 @@ layout: default
                 {% include cv/time_table.liquid %}
               {% elsif entry.type == 'time_table2' %}
                 {% include cv/time_table2.liquid %}
+              {% elsif entry.type == 'time_table3' %}
+                {% include cv/time_table3.liquid %}
               {% elsif entry.type == 'list_groups' %}
                 {% include cv/list_groups.liquid %}
               {% else %}
