@@ -3,10 +3,8 @@
   contents:
     - name: Full Name
       value: Andreas Theodorou
-    - name: Date of Birth
-      value: 14th March 1879
     - name: Languages
-      value: English, Greek, Catalan
+      value: Greek (native), English (bilingual), Catalan (A2)
 
 - title: Education
   type: time_table2
@@ -29,7 +27,7 @@
         - Description 2.
 
 - title: Experience
-  type: time_table
+  type: time_table2
   contents:
     - institution: Universidad Politécnica de Cataluña·BarcelonaTech (UPC)
       title: Associate Professor
@@ -41,9 +39,16 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Forskare (Research Fellow)
+      institution: Umeå University
+      year: 2022
+      description:
+        - Description 1.
+        - Description 2.
+
+   - title: Postdoktor (Postdoctoral Fellow)
+      institution: Umeå University
+      year: 2019
       description:
         - Description 1.
         - Description 2.
