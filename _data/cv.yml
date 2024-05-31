@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Andreas Theodorou
-    - name: Date of Birth
-      value: 14th March 1879
     - name: Languages
       value: Greek (native), English (bilingual), Catalan (A2)
 
@@ -41,7 +39,8 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
+    
+    - title: Forskare (Research Fellow)
       institution: Umeå University
       year: 1933
       description:
@@ -52,8 +51,8 @@
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+- title: Postdoktor (Postdoctoral Fellow)
+      institution: Umeå University
       year: 1911 - 1917
       description:
 
