@@ -5,7 +5,7 @@ assets/css/main.scss
 assets/js/distillpub/template.v2.js
 assets/plotly/demo.html
 lighthouse_results/**
-data/cv.yml
+_data/cv.yml
 assets/json/resume.json
 _posts/2015-10-20-math.md
 _config.yml
