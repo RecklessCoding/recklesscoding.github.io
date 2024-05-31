@@ -9,7 +9,7 @@
       value: English, Greek, Catalan
 
 - title: Education
-  type: time_table
+  type: time_table2
   contents:
     - title: PhD in Computer Science
       institution: University of Bath, UK
