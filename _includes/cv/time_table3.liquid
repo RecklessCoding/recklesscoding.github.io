@@ -2,11 +2,11 @@
   {% assign prevInstitution = "" %}
   {% for content in entry.contents %}
     {% if content.institution %}
-      {% assign prevInstitution = content.institution %}
+      {% assign currentInstitution = content.institution %}
     {% else %}
-      {% assign prevInstitution = "ERROR" %}
+      {% assign currentInstitution = "ERROR" %}
     {% endif %}
-    {% if prevInstitution != content.institution %}
+    {% if prevInstitution != currentInstitution %}
       <li class="list-group-item">
         <div class="row">
           {% if content.year %}
