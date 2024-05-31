@@ -9,14 +9,22 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: AI Goverance 
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Policy
+        - eXplainable AI
+        - Transparency
+        - Auditing and Verification
+    - title: Human-Robot Interaction (HRI)
       items:
-        - Description 1.
-        - Description 2.
+        - Mental models and calibration of trust
+        - Mixed Initiatives
+    - title: Agents
+      items:
+        - Multi-Agent Systems
+        - Agent-Based Systems
+        - Behaviour-Based AI
+        - Argumentation
 
 - title: Education
   type: time_table2
