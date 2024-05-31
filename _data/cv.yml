@@ -6,10 +6,10 @@
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
-      value: Greek (native), English (bilingual), Catalan (A2)
+      value: English, Greek, Catalan
 
 - title: Education
-  type: time_table2
+  type: time_table
   contents:
     - title: PhD in Computer Science
       institution: University of Bath, UK
@@ -29,11 +29,11 @@
         - Description 2.
 
 - title: Experience
-  type: time_table2
+  type: time_table
   contents:
-    - institution: Universidad Politécnica de Cataluña·BarcelonaTech (UPC), ES
-      title: Associate Professor
-      year: 2024 - 
+    - title: Associate Professor
+      institution: Universidad Politécnica de Cataluña·Barcelona Tech (UPC), ES
+      year: 1933 - 1955
       description:
         - Description 1.
         - Description 2.
@@ -41,25 +41,22 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Forskare (Research Fellow)
-      institution: Umeå University
-      year: 2022
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
         - Description 1.
         - Description 2.
-   - title: Postdoktor (Postdoctoral Fellow)
-      institution: Umeå University, SE
-      year: 2019
-      description:
-        - Description 1.
-        - Description 2.
-    - title: Teaching Fellow
-      institution: University of Bath, UK
-      year: 2017
+
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
+
     - title: Associate Professor of Theoretical Physics
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
