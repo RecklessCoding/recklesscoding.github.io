@@ -22,6 +22,21 @@
                       </p>
                     </td>
                 </tr>
+                {% else %}
+                  <tr>
+                    <td>
+                      <p class="location" style="margin-bottom: 0em;">
+                      </p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% if content.institution.size > 45 %}
+                  <tr>
+                    <td>
+                      <p class="location" style="margin-bottom: 0em;">
+                      </p>
+                    </td>
+                </tr>
                 {% endif %}
                 {% if content.year %}
                 <tr>
