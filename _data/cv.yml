@@ -36,10 +36,10 @@
       description:
         - <u>Primary supervisor:</u> <a href="https://www.joannajbryson.org/"> Prof. Joanna J. Bryson</a>.
         - title: <u>Examination committee:</u>
-            contents:
-            -<a href="https://hauertlab.com/sabine-hauert/">Prof. Sabine Hauert</a>
-            -<a href="https://researchportal.bath.ac.uk/en/persons/marina-de-vos/">Dr. Marina De Vos</a>
-        -<u>Other activities:</u> Student academic representative (2015-18).
+          contents:
+            - <a href="https://hauertlab.com/sabine-hauert/">Prof. Sabine Hauert</a>
+            - <a href="https://researchportal.bath.ac.uk/en/persons/marina-de-vos/">Dr. Marina De Vos</a>
+        - <u>Other activities:</u> Student academic representative (2015-18).
 
     - title: BSc (Hons) Computing and Information Technologies
       institution: University of Surrey
