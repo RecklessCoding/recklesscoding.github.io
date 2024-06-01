@@ -91,7 +91,7 @@
     - title: Postdoktor (Postdoctoral Fellow)
       institution: Umeå University
       year: 2019-2022
-      location: Sweden
+      location: Umeå, Sweden
       description:
         - Description 1.
         - Funded and participated in the AI4EU project.
@@ -151,3 +151,14 @@
   type: list
   contents:
     - See the <a href="/publications">publications page</a>.
+
+- title: Pedagogical Development
+  type: time_table3
+  contents:
+    - title: Doctoral Supervision in Practice
+      institution: Umeå University
+      location: Umeå, Sweden
+      year: 2021
+    - title: Basic course in higher education pedagogy
+      institution: Umeå University
+      year: 2020-2021
