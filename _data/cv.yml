@@ -39,16 +39,14 @@
               contents:
               -<a href="https://hauertlab.com/sabine-hauert/">Prof. Sabine Hauert</a>
               -<a href="https://researchportal.bath.ac.uk/en/persons/marina-de-vos/">Dr. Marina De Vos</a>
-        - Academic representative.
-
+        -<u>Other activities:</u> Student academic representative (2015-18).
 
     - title: BSc (Hons) Computing and Information Technologies
       institution: University of Surrey
       location: UK
       year: 2015
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with first-class honors (top 1%).
 
 - title: Work Experience
   type: time_table3
@@ -74,9 +72,21 @@
         - <a href="https://wasp-sweden.org/">WASP Affiliated Faculty</a>
         - title: Research project include:
           contents:
-            - (EXPLAIN) — co-PI
-            - RAIN - PI
+            - EXPlainable and Learning production & logistics by Artificial INtelligence (EXPLAIN — co-PI
+            - Responsible Artificial INtelligence (RAIN) - PI
             - HumanE-AI-Net - co-PI in multiple microprojects funded by the main project
+
+    - title: CEO and co-founder
+      institution: VeRAI
+      location: Sweden
+      year: 2020-2023
+      description:
+        - Start-up offering digital transformation services with a focus on AI governance.
+        - Successful exit in 2023. 
+        - Developed an AI policy and risk assessment process, now exported to other municipalities across Europe.
+        - Validation partners include Skellefteå Kommun, Ericsson, and ALLAI.
+        - Bootstrap funding through the Wallenberg Launchpad.
+        - <u>Core Skills:</u> Participatory design, requirements engineering, risk analysis, policy making.
 
     - title: Postdoktor (Postdoctoral Fellow)
       institution: Umeå University
@@ -84,7 +94,7 @@
       location: Sweden
       description:
         - Description 1.
-        - Description 2.
+        - Funded and participated in the AI4EU project.
 
     - title: Teaching Fellow
       institution: University of Bath
@@ -107,8 +117,8 @@
       year: 2014-2015
       location: Guildford, UK
       description:
-        - Description 1.
-        - Description 2.
+        - Developed a system for tracking surgical instruments in cataract operations for doctor's performance measurement.
+        - <u>Tools:</u> Python, OpenCV, PyMC
 
 
     - title: Jnr Java Developer
@@ -116,8 +126,8 @@
       year: 2013-2014
       location: Guildford, UK
       description:
-        - Description 1.
-        - Description 2.
+        - Front-deck full-stack developer.
+        - <u>Tools:</u> Java, JUnit, Jenkins, WilFly, REST, SOAP, EJB, JDBC SQL, git, Maven
 
 # - title: Open Source Projects
 #   type: time_table
