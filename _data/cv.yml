@@ -31,7 +31,7 @@
   contents:
     - title: PhD in Computer Science
       institution: University of Bath
-      location: UK
+      location: Bath, UK
       year: 2019
       description:
         - <i>Thesis title:</i> AI Governance Through a Transparency Lens
@@ -47,7 +47,7 @@
 
     - title: BSc (Hons) Computing and Information Technologies
       institution: University of Surrey
-      location: UK
+      location: Guildford, UK
       year: 2015
       description:
         - Graduated with first-class honors (top 1%).
@@ -59,7 +59,7 @@
     - title: Profesor Agregado Assimilar (TT Associate Professor)
       institution: Universitat Politècnica de Catalunya·BarcelonaTech
       year: 2024-Now
-      location: Spain
+      location: Barcelona, Spain
       description:
         - Description 1.
         - Description 2.
@@ -70,7 +70,7 @@
     
     - title: Forskare (Research Fellow)
       institution: Umeå University
-      location: Sweden
+      location: Umeå, Sweden
       year: 2022-2024
       description:
         - Permanent position with a 75% - 25% split between research and teaching.
@@ -104,7 +104,7 @@
     - title: Teaching Fellow
       institution: University of Bath
       year: 2017-2018
-      location: UK
+      location: Bath, UK
       description:
         - Description 1.
         - Description 2.
@@ -112,7 +112,6 @@
     - title: Head Tutor
       institution: University of Bath
       year: 2016-2017
-      location: UK
       description:
         - Description 1.
         - Description 2.
@@ -163,15 +162,11 @@
       institution: ROXANNE Project
       location: Europe
       year: 2019-2022
-      description:
-        -
 
     - title: P70xx Committees on AI Standards
       institution: IEEE Standards Association
       location: Global
       year: 2019-2022  
-      description:
-        -
 
 - title: Honors and Awards
   type: time_table
