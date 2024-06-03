@@ -142,29 +142,37 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Board and Committee Memberships 
-  type: time_table3
+- title: Board Memberships
+  type: time_table2
   contents:
     - title: Strategy Board
       institution: ART-AI CDT, University of Bath
       location: Bath, UK
       year: 2020-
+      description:
+        -
 
     - title: Leader of Research Cluster on AI Ethics
       institution: WASP
       location: Sweden
       year: 2022-2023
+      description:
+        -
 
-   - title: External Ethics Board
+    - title: External Ethics Board
       institution: ROXANNE Project
       location: Europe
       year: 2019-2022
-      
-   - title: P70xx Committees on AI Standards
+      description:
+        -
+
+    - title: P70xx Committees on AI Standards
       institution: IEEE Standards Association
       location: Global
       year: 2019-2022  
-      
+      description:
+        -
+
 - title: Honors and Awards
   type: time_table
   contents:
