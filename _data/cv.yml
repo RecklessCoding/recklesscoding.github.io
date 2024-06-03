@@ -34,12 +34,16 @@
       location: UK
       year: 2019
       description:
-        - <u>Primary supervisor:</u> <a href="https://www.joannajbryson.org/"> Prof. Joanna J. Bryson</a>.
+        - <i>Thesis title:</i> AI Governance Through a Transparency Lens
+        - title: <i>Supervisors team:</i> 
+          contents: 
+            - <a href="https://www.joannajbryson.org/"> Prof. Joanna J. Bryson</a>.
+            - <a href="https://researchportal.bath.ac.uk/en/persons/stephen-payne"> Prof. Stephen Payne </a>.
         - title: <u>Examination committee:</u>
           contents:
             - <a href="https://hauertlab.com/sabine-hauert/">Prof. Sabine Hauert</a>
             - <a href="https://researchportal.bath.ac.uk/en/persons/marina-de-vos/">Dr. Marina De Vos</a>
-        - <u>Other activities:</u> Student academic representative (2015-18).
+        - <i>Other activities:</i> Student academic representative (2015-18).
 
     - title: BSc (Hons) Computing and Information Technologies
       institution: University of Surrey
@@ -47,6 +51,7 @@
       year: 2015
       description:
         - Graduated with first-class honors (top 1%).
+        - <i>Final-year project:</i> 
 
 - title: Work Experience
   type: time_table3
@@ -86,7 +91,7 @@
         - Developed an AI policy and risk assessment process, now exported to other municipalities across Europe.
         - Validation partners include Skellefteå Kommun, Ericsson, and ALLAI.
         - Bootstrap funding through the Wallenberg Launchpad.
-        - <u>Core Skills:</u> Participatory design, requirements engineering, risk analysis, policy making.
+        # - <u>Core Skills:</u> Participatory design, requirements engineering, risk analysis, policy making.
 
     - title: Postdoktor (Postdoctoral Fellow)
       institution: Umeå University
@@ -118,6 +123,7 @@
       location: Guildford, UK
       description:
         - Developed a system for tracking surgical instruments in cataract operations for doctor's performance measurement.
+        - Position funded by the EPSRC Sentiment- Automated surgical skill assessment project.
         - <u>Tools:</u> Python, OpenCV, PyMC
 
 
@@ -136,6 +142,29 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
+- title: Board and Committee Memberships 
+  type: time_table3
+  contents:
+    - title: Strategy Board
+      institution: ART-AI CDT, University of Bath
+      location: Bath, UK
+      year: 2020-
+
+    - title: Leader of Research Cluster on AI Ethics
+      institution: WASP
+      location: Sweden
+      year: 2022-2023
+
+   - title: External Ethics Board
+      institution: ROXANNE Project
+      location: Europe
+      year: 2019-2022
+      
+   - title: P70xx Committees on AI Standards
+      institution: IEEE Standards Association
+      location: Global
+      year: 2019-2022  
+      
 - title: Honors and Awards
   type: time_table
   contents:
@@ -151,7 +180,7 @@
   type: list
   contents:
     - See the <a href="/publications">publications page</a>.
-
+  
 - title: Pedagogical Development
   type: time_table3
   contents:
