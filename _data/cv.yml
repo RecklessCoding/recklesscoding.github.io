@@ -51,7 +51,12 @@
       year: 2015
       description:
         - Graduated with first-class honors (top 1%).
-        - <i>Final-year project:</i> 
+        - title: <i>Other activities:</i> 
+          contents:
+            - President of the computer society ().
+            - Treasurer of the computer society ().
+            - Student academic representative (2015-18).
+        # - <i>Final-year project:</i> 
 
 - title: Work Experience
   type: time_table3
@@ -59,14 +64,10 @@
     - title: Profesor Agregado Assimilar (TT Associate Professor)
       institution: Universitat Politècnica de Catalunya·BarcelonaTech
       year: 2024-Now
-      location: Barcelona, Spain
+      location: Barcelona, ES
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Co-developing with <a href="https://bakirtzis.net/">Dr. Georgios Bakirtzis</a> and <a href=""> Dr. Andrea Aler Tubella</a> the new <a href="">MSc in ML and Cybersecurity for Internet-Connected Systems</a>.
+        - Co-developing with the above a new robotics lab and a larger Computer Science research group in EMIT.
     
     - title: Forskare (Research Fellow)
       institution: Umeå University
@@ -75,7 +76,7 @@
       description:
         - Permanent position with a 75% - 25% split between research and teaching.
         - <a href="https://wasp-sweden.org/">WASP Affiliated Faculty</a>
-        - title: Research projects include
+        - title: <i>Research projects include:</i>
           contents:
             - EXPlainable and Learning production & logistics by Artificial INtelligence (EXPLAIN — co-PI
             - Responsible Artificial INtelligence (RAIN) - PI
@@ -148,15 +149,11 @@
       institution: ART-AI CDT, University of Bath
       location: Bath, UK
       year: 2020-
-      description:
-        -
 
     - title: Leader of Research Cluster on AI Ethics
       institution: WASP
       location: Sweden
       year: 2022-2023
-      description:
-        -
 
     - title: External Ethics Board
       institution: ROXANNE Project
