@@ -1,25 +1,22 @@
 "Proceedings":
-  color: "#00369f"
+  color: "#e36e6e"
 
 "Journal":
   color: "#ee0a0a"
 
 "Editorial":
-  color: "#ff6344"
-
-"Conference":
-  color: "#009f36"
+  color: "#950000"
 
 "arXiv":
-  color: "#494F55"
+  color: "#a12424"
 
 "Under Review":
   url: 
-  color: "#494F55"
+  color: "#fe8c8c"
 
 "Book":
   url: 
-  color: "#fda900"
+  color: "#762121"
 
 "Book Chapter":
-  color: "#fd9800"
+  color: "##7c4242"
