@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: Current doctoral students. 
 nav: true
-nav_order: 5
+nav_order: 3
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -13,18 +13,12 @@ profiles:
     image: prof_pic.jpg
     content: about_methnani.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    
   - align: left
     image: prof_pic.jpg
     content: about_mckinley.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+ 
 ---
 
 test
