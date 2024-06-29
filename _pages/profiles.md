@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
+title: Students
 description: Current doctoral students. 
 nav: true
 nav_order: 3
@@ -20,5 +20,3 @@ profiles:
     image_circular: false # crops the image to make it circular
  
 ---
-
-test
