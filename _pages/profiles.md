@@ -10,13 +10,13 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: ilona.jpg
+    image: leila.png
     content: about_methnani.md
     image_circular: false # crops the image to make it circular
     
   - align: left
-    image: prof_pic.jpg
-    content: about_mckinley.md
+    image: jack.jpg
+    content: about_mckinlay.md
     image_circular: false # crops the image to make it circular
  
 ---
