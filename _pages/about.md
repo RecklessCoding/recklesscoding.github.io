@@ -13,15 +13,16 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+ # news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a tenure-track associate professor in computer science at the <a href="https://www.upc.edu/en?set_language=en">Universitat Politècnica de Catalunya·BarcelonaTech (UPC)</a>. My research focuses on the techniques and tools needed for the design, implementation, and deployment of intelligent autonomous systems such as to ensure their trustworthiness. Over the past decade, I have been a PI and co-PI in projects related to eXplainable AI (XAI), assessment and auditing of AI systems, and interdisciplinary perspectives in AI.
+Expert in AI R&D with over 10 years of experience at the intersection of technical research and global policy. I excel at knowledge transfer: bridging the gap between theoretical innovation and the deployment of innovative AI products. My goal is to generate value through AI solutions that are ethically grounded and legally resilient.
 
-At UPC, I am working towards developing the new <a href="https://www.upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems">Master's degree in Machine Learning and Cybersecurity for Internet-Connected Systems</a>. In this role, I am developing a series of courses in fundamental AI, reactive planning, and AI governance. In parallel to my current post, I am an active member of AI Governance initiatives (e.g. IEEE SA’ P70xx series). 
-
-Prior to joining UPC, I was one of the research leads in the <a href="https://www.umu.se/en/research/groups/responsible-artificial-intelligence/">Responsible AI group</a> run by <a href="https://people.cs.umu.se/virginia/">Priof. Virginia Dignum </a> at Umeå University and affiliated faculty to the <a href="http://wasp-sweden.org"> Wallenberg AI, Autonomous Systems and Software Program (WASP) </a>, where I also undertaken my postdoc. I completed my PhD at the University of Bath under the supervision of <a href="https://www.joannajbryson.org/">Prof. Joanna J. Bryson</a>.
+My research focuses on answering two connnected research questions: 1. how to best design and develop transparent intelligent systems that exhibit desired normative behaviours, while also ensuring their high performance; and 2. how to govern AI systems in such a way that we guarantee meaningful human control at all times. To answer these questions, I have been managing and participating in projects related to eXplainable AI (XAI), games AI, assessment and auditing of AI systems, and on interdisciplinary perspectives in AI. My expertise is further recognized by my contributions to global policy, from technical standards (IEEE 70xx, ISO/IEC JTC1/SC42) to the EU AI Act.
+An up-to-date list of my publications is found on Google Scholar; preprints available upon request.
+ 
+ # Prior to joining UPC, I was one of the research leads in the <a href="https://www.umu.se/en/research/groups/responsible-artificial-intelligence/">Responsible AI group</a> run by <a href="https://people.cs.umu.se/virginia/">Priof. Virginia Dignum </a> at Umeå University and affiliated faculty to the <a href="http://wasp-sweden.org"> Wallenberg AI, Autonomous Systems and Software Program (WASP) </a>, where I also undertaken my postdoc. I completed my PhD at the University of Bath under the supervision of <a href="https://www.joannajbryson.org/">Prof. Joanna J. Bryson</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
