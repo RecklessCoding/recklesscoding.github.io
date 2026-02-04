@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Associate Professor at the <a href='https://www.upc.edu'>Universitat Politècnica de Catalunya·BarcelonaTech - UPC</a>
+subtitle: Expert in AI R&D | PhD in AI Governance </a>
 
 profile:
   align: right
