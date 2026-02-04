@@ -6,12 +6,12 @@ title: Αndreas Theodorou # the website title (if blank, full name will be used 
 first_name: Andreas
 middle_name: 
 last_name: Theodorou
-email: andreas.theodorou[at]upc[.]edu
+email: a.theodorou[at]bath[.]edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Associate Professor at the Universitat Politècnica de Catalunya BarcelonaTech (UPC). 
+    Expert in AI R&D
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: artificial intelligence, AI ethics, AI governance, reactive planning, control # add your own keywords or leave empty
+keywords: artificial intelligence, AI ethics, AI governance, responsible AI, AI, LLMs, reactive planning, control # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
