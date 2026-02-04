@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Expert in AI R&D | PhD in AI Governance </a>
+subtitle:  
 
 profile:
   align: right
