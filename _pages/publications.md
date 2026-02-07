@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "Publications in reversed chronological order and by categories. Drafts available upon request. My research spans upon categories related to Responsible AI such as AI Governance, AI Safety, human control, transparency, and XAI. In addition, I have published in topics such as agents, cognitive architectures, games AI, and multi-agent systems."
+description: Publications in reversed chronological order and by categories. Drafts available upon request. Automatically generated using jekyll-scholar.
 nav: true
 nav_order: 1
 ---
