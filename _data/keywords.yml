@@ -13,16 +13,14 @@
 "Pedagogy":
   color: "#851868"  
 
-
 "Cogn. Arch.":
   color: "#ff7802"
 
-"Variable Autonomy":
+"Human Control":
   color: "#ff7802"
 
 "MAS":
   color: "#ff7802"
-
 
 "XAI":
   color: "#154e54"
@@ -33,9 +31,8 @@
 "Fairness":
   color: "#154e54"
   
-"Audit":
+"MLOPs":
   color: "#154e54"
-
 
 "Argumentation":
   color: "#5dd655"
