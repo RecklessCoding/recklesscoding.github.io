@@ -2,7 +2,7 @@
   color: "#851868"
 
 "Safety":
-  color: "#F9E076"
+  color: "#FFDA03"
 
 "MLOPs":
   color: "#4169E1"  
@@ -40,7 +40,7 @@
 "Games":
   color: "#FF2400"
   
-"BBAI":
+"Games AI":
   color: "#5dd655"
   
 "Deontic Logic":
