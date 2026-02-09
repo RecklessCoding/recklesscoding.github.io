@@ -40,7 +40,7 @@
             {% if site.data.keywords[entry.keyword1].url %}
               <a href="{{site.data.keywords[entry.keyword1].url}}">{{ entry.keyword1 }}</a>
             {% else %}
-              <div>{{- entry.keyword1 -}}</div>
+              <div style="color:white">{{- entry.keyword1 -}}</div>
             {% endif %}
           </keyword>
         {% else %}
@@ -62,7 +62,7 @@
             {% if site.data.keywords[entry.keyword2].url %}
               <a href="{{site.data.keywords[entry.keyword2].url}}">{{ entry.keyword2 }}</a>
             {% else %}
-              <div>{{- entry.keyword2 -}}</div>
+              <div style="color:white">{{- entry.keyword2 -}}</div>
             {% endif %}
           </keyword>
         {% else %}
