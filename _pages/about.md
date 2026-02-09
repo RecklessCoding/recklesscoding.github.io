@@ -17,11 +17,13 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Expert in AI R&D with over 10 years of experience at the intersection of technical research and global policy. I excel at knowledge transfer: bridging the gap between theoretical innovation and the deployment of innovative AI products. My goal is to generate value through AI solutions that are ethically grounded and legally resilient.
+Expert in AI R&D with over 10 years of experience at the intersection of technical research and global policy. I excel at knowledge transfer: bridging the gap between state-of-the-art research and real-world implementations. My goal is to help organisations generate value through AI solutions that are ethically grounded and legally resilient.
 
-My research focuses on answering two connnected research questions: 1. how to best design and develop transparent intelligent systems that exhibit desired normative behaviours, while also ensuring their high performance; and 2. how to govern AI systems in such a way that we guarantee meaningful human control at all times. To answer these questions, I have been managing and participating in projects related to eXplainable AI (XAI), games AI, assessment and auditing of AI systems, and on interdisciplinary perspectives in AI. My expertise is further recognized by my contributions to global policy, from technical standards (IEEE 70xx, ISO/IEC JTC1/SC42) to the EU AI Act.
-An up-to-date list of my publications is found on Google Scholar; preprints available upon request.
- 
+My research focuses on answering two connnected research questions: 1. how to best design and develop transparent intelligent systems that exhibit desired normative behaviours, while also ensuring their high performance; and 2. how to govern AI systems in such a way that we guarantee meaningful human control at all times. 
+
+To answer the above questions, I have been managing and participating in projects related to _responsible AI_ with particular focus on _governance_ and _safety_. My expertise is recognized by my contributions to global policy: from technical standards (IEEE 70xx, ISO/IEC JTC1/SC42) to the EU AI Act.
+
+  
 <!-- Prior to joining UPC, I was one of the research leads in the <a href="https://www.umu.se/en/research/groups/responsible-artificial-intelligence/">Responsible AI group</a> run by <a href="https://people.cs.umu.se/virginia/">Priof. Virginia Dignum </a> at Umeå University and affiliated faculty to the <a href="http://wasp-sweden.org"> Wallenberg AI, Autonomous Systems and Software Program (WASP) </a>, where I also undertaken my postdoc. I completed my PhD at the University of Bath under the supervision of <a href="https://www.joannajbryson.org/">Prof. Joanna J. Bryson</a>.>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
