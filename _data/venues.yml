@@ -1,14 +1,14 @@
 "Proceedings":
-  color: "#851868"
+  color: "#ff7802"
 
 "Journal":
-  color: "#ff7802"
+  color: "#af0000"
 
 "Editorial":
   color: "#950000"
 
 "arXiv":
-  color: "#a12424"
+  color: "#b31b1b"
 
 "Book":
   color: "#762121"
