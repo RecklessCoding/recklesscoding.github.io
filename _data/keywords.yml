@@ -10,9 +10,6 @@
 "Agents":
   color: "#851868"
 
-"Control":
-  color: "#851868"
-
 "H-AI Int.":
   color: "#851868"
 
@@ -23,7 +20,7 @@
   color: "#ff7802"
 
 "Human Control":
-  color: "#ff7802"
+  color: "#355E3B"
 
 "MAS":
   color: "#ff7802"
