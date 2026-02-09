@@ -1,6 +1,12 @@
 "Governance":
   color: "#851868"
 
+"Safety":
+  color: "#F9E076"
+
+"MLOPs":
+  color: "#4169E1"  
+  
 "Agents":
   color: "#851868"
 
@@ -11,7 +17,7 @@
   color: "#851868"
 
 "Pedagogy":
-  color: "#851868"  
+  color: "#79BAEC"  
 
 "Cogn. Arch.":
   color: "#ff7802"
@@ -31,11 +37,8 @@
 "Fairness":
   color: "#154e54"
   
-"MLOPs":
-  color: "#154e54"
-
-"Argumentation":
-  color: "#5dd655"
+"Games":
+  color: "#FF2400"
   
 "BBAI":
   color: "#5dd655"
