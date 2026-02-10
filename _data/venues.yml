@@ -7,11 +7,14 @@
 "Editorial":
   color: "#950000"
 
-"arXiv":
+"Preprint":
   color: "#b31b1b"
 
 "Book":
   color: "#762121"
 
 "Book Chapter":
-  color: "##7c4242"
+  color: "#7c4242"
+  
+"Book Chapter":
+  color: "#800020"
