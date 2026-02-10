@@ -347,6 +347,7 @@
                     {% endif %}
                   {% endfor %}
                 {% endif %}
+              {% if citation_count != "0" %}
                <span>
                 <a
                   href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
@@ -359,6 +360,7 @@
                   >
                 </a>
               </span>
+             {% endif %}
            {% endif %}
           {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
             <span
@@ -380,7 +382,7 @@
               class="altmetric-embed"
               data-badge-type="2"
               data-badge-popover="right"
-              data-hide-less-than="1"
+              data-hide-no-mentions="true
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
                 data-altmetric-id="{{ entry.altmetric }}"
               {% elsif entry.arxiv %}
