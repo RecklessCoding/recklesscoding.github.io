@@ -308,9 +308,9 @@
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
-      {% assign entry_has_altmetric_badge = false %}
-      {% if entry.altmetric and entry.altmetric != 'false' %}
-        {% assign entry_has_altmetric_badge = true %}
+      {% assign entry_has_google_scholar_badge = false %}
+      {% if entry.google_scholar_id %}
+        {% assign entry_has_google_scholar_badge = true %}
       {% endif %}
 
       {% assign entry_has_dimensions_badge = false %}
@@ -318,9 +318,9 @@
         {% assign entry_has_dimensions_badge = true %}
       {% endif %}
 
-      {% assign entry_has_google_scholar_badge = false %}
-      {% if entry.google_scholar_id %}
-        {% assign entry_has_google_scholar_badge = true %}
+      {% assign entry_has_altmetric_badge = false %}
+      {% if entry.altmetric and entry.altmetric != 'false' %}
+        {% assign entry_has_altmetric_badge = true %}
       {% endif %}
 
       {% assign entry_has_inspirehep_badge = false %}
