@@ -17,13 +17,13 @@
   color: "#79BAEC"  
 
 "Cogn. Arch.":
-  color: "#ff7802"
+  color: "#80461B"
 
 "Human Control":
   color: "#355E3B"
 
-"MAS":
-  color: "#ff7802"
+"Agents":
+  color: "#B43757"
 
 "XAI":
   color: "#154e54"
