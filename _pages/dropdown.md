@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Academic
-# nav: true
-# nav_order: 3
+nav: true
+nav_order: 3
 dropdown: true
 children:
   - title: Students
