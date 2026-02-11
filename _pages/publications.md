@@ -7,6 +7,8 @@ nav: true
 nav_order: 1
 ---
 
+{% include bib_search.liquid %}
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
