@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Academic
+title: Academia
 nav: true
 nav_order: 3
 dropdown: true
 children:
-  - title: Students
+  - title: PhD Students
     permalink: /people/
   - title: divider
   - title: Teaching
