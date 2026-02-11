@@ -3,7 +3,7 @@ layout: profiles
 permalink: /people/
 title: Students
 description: Current doctoral students. 
-nav: true
+nav: false
 nav_order: 3
 
 profiles:
