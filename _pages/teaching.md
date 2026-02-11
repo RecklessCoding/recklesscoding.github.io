@@ -12,7 +12,7 @@ For now, this page is assumed to be a static description of your courses. You ca
 Organize your courses by years, topics, or universities, however you like! -->
 
 
-### Universidad Politécnica de Cataluña
+### Universidad Politécnica de Cataluña< ES
 #### Course responsible
 * Fundamentals of AI (2024-)
 * Cybersecurity of Industrial Control Systems(2024-) 
