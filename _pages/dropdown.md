@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Academic
 # nav: true
-# nav_order: 8
+# nav_order: 3
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Students
+    permalink: /people/
+    - title: divider
+  - title: Teaching
+    permalink: /teaching/
 ---
