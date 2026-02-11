@@ -2,15 +2,14 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "Publications in reversed chronological order and by categories. Drafts available upon request. My research spans upon categories related to Responsible AI: AI _governance_, _safety_, _human control_, _transparency_, and _XAI_. In addition, I have published in topics such as _agents_, _cognitive architectures_, _games AI_, and _multi-agent systems_."
+description: "Publications in reversed chronological order and by categories. Drafts available upon request. My research spans upon categories related to Responsible AI:  <i>governance</i>, <i>safety</i>, <i>human control</i>, <i>transparency</i>, and <i>XAI</i>. In addition, I have published in topics such as <i>agents</i>, <i>cognitive architectures</i>, <i>games AI</i>, and <i>multi-agent systems</i>."
 nav: true
 nav_order: 1
 ---
 
 <div>
- <p> You may use the search function to search based on _keywords_ or any other bib attribute. </p> 
+ <p> You may use the search function to search based on <i>keywords</i> or any other bib attribute. </p> 
 {% include bib_search.liquid %}
-
 </div>
 
 <!-- _pages/publications.md -->
