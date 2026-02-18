@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-10'
+  last_updated: '2026-02-18'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
     title: 'Negotiating Control: Neurosymbolic Variable Autonomy'
     year: '2024'
   JEw-BycAAAAJ:2osOgNQ5qMEC:
-    citations: 12
+    citations: 11
     title: 'ABOD3: A Graphical Visualization and Real-Time Debugging Tool for BOD Agents'
     year: '2016'
   JEw-BycAAAAJ:3fE2CSJIrl8C:
-    citations: 20
+    citations: 21
     title: 'The sustainability game: AI technology as an intervention for public understanding of cooperative investment'
     year: '2019'
   JEw-BycAAAAJ:3s1wT3WcHBgC:
@@ -18,7 +18,7 @@ papers:
     title: 'PRISM: A Pragmatic Framework for Evaluating Counterfactual Explanations in XAI'
     year: '2025'
   JEw-BycAAAAJ:4DMP91E08xMC:
-    citations: 29
+    citations: 31
     title: Contestable black boxes
     year: '2020'
   JEw-BycAAAAJ:4JMBOYKVnBMC:
@@ -30,7 +30,7 @@ papers:
     title: 'HHAI 2024: Hybrid Human AI Systems for the Social Good: Proceedings of the Third International Conference on Hybrid Human-Artificial Intelligence'
     year: '2024'
   JEw-BycAAAAJ:8k81kl-MbHgC:
-    citations: 64
+    citations: 63
     title: 'Governance by Glass-Box: Implementing Transparent Moral Bounds for AI Behaviour'
     year: '2019'
   JEw-BycAAAAJ:BqipwSGYUEgC:
@@ -46,7 +46,7 @@ papers:
     title: A MLOps Architecture for XAI in Industrial Applications
     year: '2024'
   JEw-BycAAAAJ:IWHjjKOFINEC:
-    citations: 6
+    citations: 7
     title: 'Interrogating the Black Box: Transparency through Information-Seeking Dialogues'
     year: '2021'
   JEw-BycAAAAJ:JV2RwH3_ST0C:
@@ -54,7 +54,7 @@ papers:
     title: 'Robot Health Indicator: A Visual Cue to Improve Level of Autonomy Switching Systems'
     year: '2023'
   JEw-BycAAAAJ:KlAtU1dfN6UC:
-    citations: 4
+    citations: 5
     title: AI Governance Through a Transparency Lens
     year: '2019'
   JEw-BycAAAAJ:M05iB0D1s5AC:
@@ -66,7 +66,7 @@ papers:
     title: Variable Autonomy for Human-Robot Teaming (VAT)
     year: '2023'
   JEw-BycAAAAJ:MXK_kJrjxJIC:
-    citations: 16
+    citations: 17
     title: 'Slam the Brakes: Perceptions of Moral Decisions in Driving Dilemmas'
     year: '2019'
   JEw-BycAAAAJ:NMxIlDl6LWMC:
@@ -86,7 +86,7 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 304
+    citations: 307
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
@@ -102,7 +102,7 @@ papers:
     title: Understanding the Process of Human-AI Value Alignment
     year: '2025'
   JEw-BycAAAAJ:TFP_iSt0sucC:
-    citations: 161
+    citations: 163
     title: Designing and implementing transparency for real time inspection of autonomous robots
     year: '2017'
   JEw-BycAAAAJ:Tyk-4Ss8FVUC:
@@ -110,7 +110,7 @@ papers:
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 201
+    citations: 205
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
@@ -118,15 +118,15 @@ papers:
     title: Contesting black-box AI decisions
     year: '2025'
   JEw-BycAAAAJ:ZeXyd9-uunAC:
-    citations: 101
+    citations: 100
     title: What does the robot think? Transparency as a fundamental design requirement for intelligent systems
     year: '2016'
   JEw-BycAAAAJ:_Qo2XoVZTnwC:
-    citations: 36
+    citations: 35
     title: 'Improving robot transparency: An investigation with mobile augmented reality'
     year: '2019'
   JEw-BycAAAAJ:bEWYMUwI8FkC:
-    citations: 47
+    citations: 46
     title: Why is my robot behaving like that? Designing transparency for real time inspection of autonomous robots
     year: '2016'
   JEw-BycAAAAJ:blknAaTinKkC:
@@ -134,7 +134,7 @@ papers:
     title: 'Operationalising AI ethics: conducting socio-technical assessment'
     year: '2021'
   JEw-BycAAAAJ:d1gkVwhDpl0C:
-    citations: 158
+    citations: 159
     title: Robot transparency, trust and utility
     year: '2017'
   JEw-BycAAAAJ:dhFuZR0502QC:
@@ -146,15 +146,15 @@ papers:
     title: 'Robots that make sense: transparent intelligence through augmented reality'
     year: '2019'
   JEw-BycAAAAJ:hFOr9nPyWt4C:
-    citations: 141
+    citations: 143
     title: 'IEEE P7001: A proposed standard on transparency'
     year: '2021'
   JEw-BycAAAAJ:hMod-77fHWUC:
-    citations: 6
+    citations: 5
     title: IEEE standard for transparency of autonomous systems
     year: '2022'
   JEw-BycAAAAJ:iH-uZ7U-co4C:
-    citations: 11
+    citations: 12
     title: Let it rain for social good
     year: '2022'
   JEw-BycAAAAJ:isC4tDSrTZIC:
@@ -166,7 +166,7 @@ papers:
     title: The AWKWARD Real-Time Adjustment of Reactive Planning
     year: '2022'
   JEw-BycAAAAJ:lSLTfruPkqcC:
-    citations: 31
+    citations: 30
     title: "Who\u2019s in charge here? A survey on Trustworthy AI in Variable Autonomy Robotic Systems"
     year: '2024'
   JEw-BycAAAAJ:ldfaerwXgEUC:
@@ -182,7 +182,7 @@ papers:
     title: Final analysis of the EU Whitepaper on AI
     year: '2020'
   JEw-BycAAAAJ:ns9cj8rnVeAC:
-    citations: 10
+    citations: 11
     title: Towards an MLOps Architecture for XAI in Industrial Applications
     year: '2023'
   JEw-BycAAAAJ:pqnbT2bcN3wC:
@@ -190,7 +190,7 @@ papers:
     title: Variable autonomy for human-robot teaming
     year: '2024'
   JEw-BycAAAAJ:qxL8FJ1GzNcC:
-    citations: 67
+    citations: 66
     title: A socio-technical framework for digital contact tracing
     year: '2020'
   JEw-BycAAAAJ:r0BpntZqJG4C:
@@ -198,14 +198,14 @@ papers:
     title: 'Good AI for Good: How AI Strategies of the Nordic Countries Address the Sustainable Development Goals'
     year: '2022'
   JEw-BycAAAAJ:roLk4NBRz8UC:
-    citations: 162
+    citations: 161
     title: How society can maintain human-centric artificial intelligence
     year: '2019'
   JEw-BycAAAAJ:vV6vV6tmYwMC:
-    citations: 6
+    citations: 5
     title: 'Responsible AI at work: incorporating human values'
     year: '2024'
   JEw-BycAAAAJ:zYLM7Y9cAGgC:
-    citations: 53
+    citations: 54
     title: 'Robot transparency: Improving understanding of intelligent behaviour for designers and users'
     year: '2017'
