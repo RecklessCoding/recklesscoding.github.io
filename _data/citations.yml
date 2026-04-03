@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-04-03'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
@@ -30,7 +30,7 @@ papers:
     title: 'HHAI 2024: Hybrid Human AI Systems for the Social Good: Proceedings of the Third International Conference on Hybrid Human-Artificial Intelligence'
     year: '2024'
   JEw-BycAAAAJ:8k81kl-MbHgC:
-    citations: 63
+    citations: 64
     title: 'Governance by Glass-Box: Implementing Transparent Moral Bounds for AI Behaviour'
     year: '2019'
   JEw-BycAAAAJ:BqipwSGYUEgC:
@@ -50,7 +50,7 @@ papers:
     title: 'Interrogating the Black Box: Transparency through Information-Seeking Dialogues'
     year: '2021'
   JEw-BycAAAAJ:JV2RwH3_ST0C:
-    citations: 6
+    citations: 7
     title: 'Robot Health Indicator: A Visual Cue to Improve Level of Autonomy Switching Systems'
     year: '2023'
   JEw-BycAAAAJ:KlAtU1dfN6UC:
@@ -86,11 +86,11 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 307
+    citations: 328
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
-    citations: 1
+    citations: 3
     title: 'Clash of the Explainers: Argumentation for Context-Appropriate Explanations'
     year: '2023'
   JEw-BycAAAAJ:Se3iqnhoufwC:
@@ -102,23 +102,23 @@ papers:
     title: Understanding the Process of Human-AI Value Alignment
     year: '2025'
   JEw-BycAAAAJ:TFP_iSt0sucC:
-    citations: 163
+    citations: 168
     title: Designing and implementing transparency for real time inspection of autonomous robots
     year: '2017'
   JEw-BycAAAAJ:Tyk-4Ss8FVUC:
-    citations: 65
+    citations: 67
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 205
+    citations: 213
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
-    citations: 5
+    citations: 7
     title: Contesting black-box AI decisions
     year: '2025'
   JEw-BycAAAAJ:ZeXyd9-uunAC:
-    citations: 100
+    citations: 103
     title: What does the robot think? Transparency as a fundamental design requirement for intelligent systems
     year: '2016'
   JEw-BycAAAAJ:_Qo2XoVZTnwC:
@@ -134,7 +134,7 @@ papers:
     title: 'Operationalising AI ethics: conducting socio-technical assessment'
     year: '2021'
   JEw-BycAAAAJ:d1gkVwhDpl0C:
-    citations: 159
+    citations: 164
     title: Robot transparency, trust and utility
     year: '2017'
   JEw-BycAAAAJ:dhFuZR0502QC:
@@ -146,7 +146,7 @@ papers:
     title: 'Robots that make sense: transparent intelligence through augmented reality'
     year: '2019'
   JEw-BycAAAAJ:hFOr9nPyWt4C:
-    citations: 143
+    citations: 148
     title: 'IEEE P7001: A proposed standard on transparency'
     year: '2021'
   JEw-BycAAAAJ:hMod-77fHWUC:
@@ -166,15 +166,15 @@ papers:
     title: The AWKWARD Real-Time Adjustment of Reactive Planning
     year: '2022'
   JEw-BycAAAAJ:lSLTfruPkqcC:
-    citations: 30
+    citations: 31
     title: "Who\u2019s in charge here? A survey on Trustworthy AI in Variable Autonomy Robotic Systems"
     year: '2024'
   JEw-BycAAAAJ:ldfaerwXgEUC:
-    citations: 4
+    citations: 5
     title: 'MLOps for Cyber-Physical Production Systems: Challenges and Solutions'
     year: '2024'
   JEw-BycAAAAJ:mB3voiENLucC:
-    citations: 92
+    citations: 103
     title: 'Let me take over: Variable autonomy for meaningful human control'
     year: '2021'
   JEw-BycAAAAJ:maZDTaKrznsC:
@@ -190,7 +190,7 @@ papers:
     title: Variable autonomy for human-robot teaming
     year: '2024'
   JEw-BycAAAAJ:qxL8FJ1GzNcC:
-    citations: 66
+    citations: 67
     title: A socio-technical framework for digital contact tracing
     year: '2020'
   JEw-BycAAAAJ:r0BpntZqJG4C:
@@ -198,7 +198,7 @@ papers:
     title: 'Good AI for Good: How AI Strategies of the Nordic Countries Address the Sustainable Development Goals'
     year: '2022'
   JEw-BycAAAAJ:roLk4NBRz8UC:
-    citations: 161
+    citations: 169
     title: How society can maintain human-centric artificial intelligence
     year: '2019'
   JEw-BycAAAAJ:vV6vV6tmYwMC:
@@ -206,6 +206,6 @@ papers:
     title: 'Responsible AI at work: incorporating human values'
     year: '2024'
   JEw-BycAAAAJ:zYLM7Y9cAGgC:
-    citations: 54
+    citations: 57
     title: 'Robot transparency: Improving understanding of intelligent behaviour for designers and users'
     year: '2017'
