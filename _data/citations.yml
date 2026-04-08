@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-03'
+  last_updated: '2026-04-08'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
@@ -42,7 +42,7 @@ papers:
     title: "Coordination, Organizations, Institutions, Norms, and Ethics for Governance of Multi-agent Systems XIV: International Workshop, COINE 2021, London, UK, May 3, 2021, Revised \u2026"
     year: '2022'
   JEw-BycAAAAJ:HoB7MX3m0LUC:
-    citations: 7
+    citations: 8
     title: A MLOps Architecture for XAI in Industrial Applications
     year: '2024'
   JEw-BycAAAAJ:IWHjjKOFINEC:
@@ -70,7 +70,7 @@ papers:
     title: 'Slam the Brakes: Perceptions of Moral Decisions in Driving Dilemmas'
     year: '2019'
   JEw-BycAAAAJ:NMxIlDl6LWMC:
-    citations: 31
+    citations: 32
     title: 'From fear to action: AI governance and opportunities for all'
     year: '2023'
   JEw-BycAAAAJ:NaGl4SEjCO4C:
@@ -86,7 +86,7 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 328
+    citations: 332
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
@@ -98,7 +98,7 @@ papers:
     title: Perceptions of Moral Dilemmas in a Virtual Reality Car Simulation
     year: '2018'
   JEw-BycAAAAJ:SeFeTyx0c_EC:
-    citations: 0
+    citations: 1
     title: Understanding the Process of Human-AI Value Alignment
     year: '2025'
   JEw-BycAAAAJ:TFP_iSt0sucC:
@@ -110,7 +110,7 @@ papers:
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 213
+    citations: 214
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
@@ -158,7 +158,7 @@ papers:
     title: Let it rain for social good
     year: '2022'
   JEw-BycAAAAJ:isC4tDSrTZIC:
-    citations: 12
+    citations: 13
     title: 'Garbage in, toxic data out: a proposal for ethical artificial intelligence sustainability impact statements'
     year: '2022'
   JEw-BycAAAAJ:j3f4tGmQtD8C:
@@ -166,11 +166,11 @@ papers:
     title: The AWKWARD Real-Time Adjustment of Reactive Planning
     year: '2022'
   JEw-BycAAAAJ:lSLTfruPkqcC:
-    citations: 31
+    citations: 32
     title: "Who\u2019s in charge here? A survey on Trustworthy AI in Variable Autonomy Robotic Systems"
     year: '2024'
   JEw-BycAAAAJ:ldfaerwXgEUC:
-    citations: 5
+    citations: 6
     title: 'MLOps for Cyber-Physical Production Systems: Challenges and Solutions'
     year: '2024'
   JEw-BycAAAAJ:mB3voiENLucC:
