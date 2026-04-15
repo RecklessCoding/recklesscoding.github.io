@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-15'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
@@ -86,7 +86,7 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 332
+    citations: 336
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
@@ -102,7 +102,7 @@ papers:
     title: Understanding the Process of Human-AI Value Alignment
     year: '2025'
   JEw-BycAAAAJ:TFP_iSt0sucC:
-    citations: 168
+    citations: 169
     title: Designing and implementing transparency for real time inspection of autonomous robots
     year: '2017'
   JEw-BycAAAAJ:Tyk-4Ss8FVUC:
@@ -118,7 +118,7 @@ papers:
     title: Contesting black-box AI decisions
     year: '2025'
   JEw-BycAAAAJ:ZeXyd9-uunAC:
-    citations: 103
+    citations: 104
     title: What does the robot think? Transparency as a fundamental design requirement for intelligent systems
     year: '2016'
   JEw-BycAAAAJ:_Qo2XoVZTnwC:
