@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-22'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
@@ -86,7 +86,7 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 336
+    citations: 337
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
@@ -99,10 +99,10 @@ papers:
     year: '2018'
   JEw-BycAAAAJ:SeFeTyx0c_EC:
     citations: 1
-    title: Understanding the Process of Human-AI Value Alignment
-    year: '2025'
+    title: Understanding the process of human-ai value alignment
+    year: '2026'
   JEw-BycAAAAJ:TFP_iSt0sucC:
-    citations: 169
+    citations: 168
     title: Designing and implementing transparency for real time inspection of autonomous robots
     year: '2017'
   JEw-BycAAAAJ:Tyk-4Ss8FVUC:
@@ -110,7 +110,7 @@ papers:
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 214
+    citations: 213
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
@@ -134,7 +134,7 @@ papers:
     title: 'Operationalising AI ethics: conducting socio-technical assessment'
     year: '2021'
   JEw-BycAAAAJ:d1gkVwhDpl0C:
-    citations: 164
+    citations: 168
     title: Robot transparency, trust and utility
     year: '2017'
   JEw-BycAAAAJ:dhFuZR0502QC:
@@ -146,7 +146,7 @@ papers:
     title: 'Robots that make sense: transparent intelligence through augmented reality'
     year: '2019'
   JEw-BycAAAAJ:hFOr9nPyWt4C:
-    citations: 148
+    citations: 150
     title: 'IEEE P7001: A proposed standard on transparency'
     year: '2021'
   JEw-BycAAAAJ:hMod-77fHWUC:
@@ -166,15 +166,15 @@ papers:
     title: The AWKWARD Real-Time Adjustment of Reactive Planning
     year: '2022'
   JEw-BycAAAAJ:lSLTfruPkqcC:
-    citations: 32
+    citations: 33
     title: "Who\u2019s in charge here? A survey on Trustworthy AI in Variable Autonomy Robotic Systems"
     year: '2024'
   JEw-BycAAAAJ:ldfaerwXgEUC:
-    citations: 6
-    title: 'MLOps for Cyber-Physical Production Systems: Challenges and Solutions'
+    citations: 7
+    title: 'MLOps for Cyberphysical Production Systems: Challenges and Solutions'
     year: '2024'
   JEw-BycAAAAJ:mB3voiENLucC:
-    citations: 103
+    citations: 104
     title: 'Let me take over: Variable autonomy for meaningful human control'
     year: '2021'
   JEw-BycAAAAJ:maZDTaKrznsC:
@@ -190,7 +190,7 @@ papers:
     title: Variable autonomy for human-robot teaming
     year: '2024'
   JEw-BycAAAAJ:qxL8FJ1GzNcC:
-    citations: 67
+    citations: 68
     title: A socio-technical framework for digital contact tracing
     year: '2020'
   JEw-BycAAAAJ:r0BpntZqJG4C:
@@ -206,6 +206,6 @@ papers:
     title: 'Responsible AI at work: incorporating human values'
     year: '2024'
   JEw-BycAAAAJ:zYLM7Y9cAGgC:
-    citations: 57
+    citations: 59
     title: 'Robot transparency: Improving understanding of intelligent behaviour for designers and users'
     year: '2017'
