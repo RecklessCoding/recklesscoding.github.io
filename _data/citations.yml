@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-06'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
@@ -42,7 +42,7 @@ papers:
     title: "Coordination, Organizations, Institutions, Norms, and Ethics for Governance of Multi-agent Systems XIV: International Workshop, COINE 2021, London, UK, May 3, 2021, Revised \u2026"
     year: '2022'
   JEw-BycAAAAJ:HoB7MX3m0LUC:
-    citations: 8
+    citations: 9
     title: A MLOps Architecture for XAI in Industrial Applications
     year: '2024'
   JEw-BycAAAAJ:IWHjjKOFINEC:
@@ -86,11 +86,11 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 342
+    citations: 343
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
-    citations: 3
+    citations: 2
     title: 'Clash of the Explainers: Argumentation for Context-Appropriate Explanations'
     year: '2023'
   JEw-BycAAAAJ:Se3iqnhoufwC:
@@ -102,15 +102,15 @@ papers:
     title: Understanding the process of human-ai value alignment
     year: '2026'
   JEw-BycAAAAJ:TFP_iSt0sucC:
-    citations: 168
+    citations: 169
     title: Designing and implementing transparency for real time inspection of autonomous robots
     year: '2017'
   JEw-BycAAAAJ:Tyk-4Ss8FVUC:
-    citations: 67
+    citations: 68
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 215
+    citations: 216
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
