@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-07-13'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 2
@@ -10,7 +10,7 @@ papers:
     title: 'ABOD3: A Graphical Visualization and Real-Time Debugging Tool for BOD Agents'
     year: '2016'
   JEw-BycAAAAJ:3fE2CSJIrl8C:
-    citations: 21
+    citations: 22
     title: 'The sustainability game: AI technology as an intervention for public understanding of cooperative investment'
     year: '2019'
   JEw-BycAAAAJ:3s1wT3WcHBgC:
@@ -42,7 +42,7 @@ papers:
     title: "Coordination, Organizations, Institutions, Norms, and Ethics for Governance of Multi-agent Systems XIV: International Workshop, COINE 2021, London, UK, May 3, 2021, Revised \u2026"
     year: '2022'
   JEw-BycAAAAJ:HoB7MX3m0LUC:
-    citations: 9
+    citations: 10
     title: A MLOps Architecture for XAI in Industrial Applications
     year: '2024'
   JEw-BycAAAAJ:IWHjjKOFINEC:
@@ -50,7 +50,7 @@ papers:
     title: 'Interrogating the Black Box: Transparency through Information-Seeking Dialogues'
     year: '2021'
   JEw-BycAAAAJ:JV2RwH3_ST0C:
-    citations: 7
+    citations: 8
     title: 'Robot Health Indicator: A Visual Cue to Improve Level of Autonomy Switching Systems'
     year: '2023'
   JEw-BycAAAAJ:KlAtU1dfN6UC:
@@ -58,7 +58,7 @@ papers:
     title: AI Governance Through a Transparency Lens
     year: '2019'
   JEw-BycAAAAJ:M05iB0D1s5AC:
-    citations: 5
+    citations: 6
     title: 'Navigating the sociotechnical labyrinth: Dynamic certification for responsible embodied AI'
     year: '2025'
   JEw-BycAAAAJ:M3NEmzRMIkIC:
@@ -86,11 +86,11 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 358
+    citations: 369
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
-    citations: 5
+    citations: 4
     title: 'Clash of the Explainers: Argumentation for Context-Appropriate Explanations'
     year: '2023'
   JEw-BycAAAAJ:Se3iqnhoufwC:
@@ -98,35 +98,35 @@ papers:
     title: Perceptions of Moral Dilemmas in a Virtual Reality Car Simulation
     year: '2018'
   JEw-BycAAAAJ:SeFeTyx0c_EC:
-    citations: 2
+    citations: 5
     title: Understanding the process of human-ai value alignment
     year: '2026'
   JEw-BycAAAAJ:TFP_iSt0sucC:
-    citations: 171
+    citations: 172
     title: Designing and implementing transparency for real time inspection of autonomous robots
     year: '2017'
   JEw-BycAAAAJ:Tyk-4Ss8FVUC:
-    citations: 68
+    citations: 69
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 218
+    citations: 221
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
-    citations: 10
+    citations: 11
     title: Contesting black-box AI decisions
     year: '2025'
   JEw-BycAAAAJ:ZeXyd9-uunAC:
-    citations: 107
+    citations: 108
     title: What does the robot think? Transparency as a fundamental design requirement for intelligent systems
     year: '2016'
   JEw-BycAAAAJ:_Qo2XoVZTnwC:
-    citations: 35
+    citations: 36
     title: 'Improving robot transparency: An investigation with mobile augmented reality'
     year: '2019'
   JEw-BycAAAAJ:bEWYMUwI8FkC:
-    citations: 47
+    citations: 48
     title: Why is my robot behaving like that? Designing transparency for real time inspection of autonomous robots
     year: '2016'
   JEw-BycAAAAJ:blknAaTinKkC:
@@ -134,7 +134,7 @@ papers:
     title: 'Operationalising AI ethics: conducting socio-technical assessment'
     year: '2021'
   JEw-BycAAAAJ:d1gkVwhDpl0C:
-    citations: 171
+    citations: 172
     title: Robot transparency, trust and utility
     year: '2017'
   JEw-BycAAAAJ:dhFuZR0502QC:
@@ -146,7 +146,7 @@ papers:
     title: 'Robots that make sense: transparent intelligence through augmented reality'
     year: '2019'
   JEw-BycAAAAJ:hFOr9nPyWt4C:
-    citations: 155
+    citations: 157
     title: 'IEEE P7001: A proposed standard on transparency'
     year: '2021'
   JEw-BycAAAAJ:hMod-77fHWUC:
@@ -154,7 +154,7 @@ papers:
     title: IEEE standard for transparency of autonomous systems
     year: '2022'
   JEw-BycAAAAJ:iH-uZ7U-co4C:
-    citations: 12
+    citations: 13
     title: Let it rain for social good
     year: '2022'
   JEw-BycAAAAJ:isC4tDSrTZIC:
@@ -166,15 +166,15 @@ papers:
     title: The AWKWARD Real-Time Adjustment of Reactive Planning
     year: '2022'
   JEw-BycAAAAJ:lSLTfruPkqcC:
-    citations: 36
+    citations: 39
     title: "Who\u2019s in charge here? A survey on Trustworthy AI in Variable Autonomy Robotic Systems"
     year: '2024'
   JEw-BycAAAAJ:ldfaerwXgEUC:
-    citations: 8
+    citations: 10
     title: 'MLOps for Cyberphysical Production Systems: Challenges and Solutions'
     year: '2024'
   JEw-BycAAAAJ:mB3voiENLucC:
-    citations: 109
+    citations: 110
     title: 'Let me take over: Variable autonomy for meaningful human control'
     year: '2021'
   JEw-BycAAAAJ:maZDTaKrznsC:
@@ -182,7 +182,7 @@ papers:
     title: Final analysis of the EU Whitepaper on AI
     year: '2020'
   JEw-BycAAAAJ:ns9cj8rnVeAC:
-    citations: 11
+    citations: 14
     title: Towards an MLOps Architecture for XAI in Industrial Applications
     year: '2023'
   JEw-BycAAAAJ:pqnbT2bcN3wC:
@@ -198,14 +198,14 @@ papers:
     title: 'Good AI for Good: How AI Strategies of the Nordic Countries Address the Sustainable Development Goals'
     year: '2022'
   JEw-BycAAAAJ:roLk4NBRz8UC:
-    citations: 174
+    citations: 177
     title: How society can maintain human-centric artificial intelligence
     year: '2019'
   JEw-BycAAAAJ:vV6vV6tmYwMC:
-    citations: 5
+    citations: 6
     title: 'Responsible AI at work: incorporating human values'
     year: '2024'
   JEw-BycAAAAJ:zYLM7Y9cAGgC:
-    citations: 60
+    citations: 61
     title: 'Robot transparency: Improving understanding of intelligent behaviour for designers and users'
     year: '2017'
