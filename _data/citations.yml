@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-24'
 papers:
   JEw-BycAAAAJ:2P1L_qKh6hAC:
     citations: 3
@@ -30,7 +30,7 @@ papers:
     title: 'HHAI 2024: Hybrid Human AI Systems for the Social Good: Proceedings of the Third International Conference on Hybrid Human-Artificial Intelligence'
     year: '2024'
   JEw-BycAAAAJ:8k81kl-MbHgC:
-    citations: 70
+    citations: 71
     title: 'Governance by Glass-Box: Implementing Transparent Moral Bounds for AI Behaviour'
     year: '2019'
   JEw-BycAAAAJ:BqipwSGYUEgC:
@@ -86,7 +86,7 @@ papers:
     title: Why artificial intelligence is a matter of design
     year: '2020'
   JEw-BycAAAAJ:R3hNpaxXUhUC:
-    citations: 380
+    citations: 387
     title: 'A sociotechnical perspective for the future of AI: narratives, inequalities, and human control'
     year: '2022'
   JEw-BycAAAAJ:RYcK_YlVTxYC:
@@ -110,15 +110,15 @@ papers:
     title: 'Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers'
     year: '2017'
   JEw-BycAAAAJ:YOwf2qJgpHMC:
-    citations: 220
+    citations: 221
     title: Towards ethical and socio-legal governance in AI
     year: '2020'
   JEw-BycAAAAJ:ZHo1McVdvXMC:
-    citations: 13
+    citations: 14
     title: Contesting black-box AI decisions
     year: '2025'
   JEw-BycAAAAJ:ZeXyd9-uunAC:
-    citations: 106
+    citations: 108
     title: What does the robot think? Transparency as a fundamental design requirement for intelligent systems
     year: '2016'
   JEw-BycAAAAJ:_Qo2XoVZTnwC:
@@ -126,7 +126,7 @@ papers:
     title: 'Improving robot transparency: An investigation with mobile augmented reality'
     year: '2019'
   JEw-BycAAAAJ:bEWYMUwI8FkC:
-    citations: 46
+    citations: 47
     title: Why is my robot behaving like that? Designing transparency for real time inspection of autonomous robots
     year: '2016'
   JEw-BycAAAAJ:blknAaTinKkC:
@@ -158,7 +158,7 @@ papers:
     title: Let it rain for social good
     year: '2022'
   JEw-BycAAAAJ:isC4tDSrTZIC:
-    citations: 14
+    citations: 15
     title: 'Garbage in, toxic data out: a proposal for ethical artificial intelligence sustainability impact statements'
     year: '2022'
   JEw-BycAAAAJ:j3f4tGmQtD8C:
@@ -166,15 +166,15 @@ papers:
     title: The AWKWARD Real-Time Adjustment of Reactive Planning
     year: '2022'
   JEw-BycAAAAJ:lSLTfruPkqcC:
-    citations: 44
+    citations: 46
     title: "Who\u2019s in charge here? A survey on Trustworthy AI in Variable Autonomy Robotic Systems"
     year: '2024'
   JEw-BycAAAAJ:ldfaerwXgEUC:
-    citations: 11
+    citations: 13
     title: 'MLOps for Cyberphysical Production Systems: Challenges and Solutions'
     year: '2024'
   JEw-BycAAAAJ:mB3voiENLucC:
-    citations: 122
+    citations: 124
     title: 'Let me take over: Variable autonomy for meaningful human control'
     year: '2021'
   JEw-BycAAAAJ:maZDTaKrznsC:
@@ -194,11 +194,11 @@ papers:
     title: A socio-technical framework for digital contact tracing
     year: '2020'
   JEw-BycAAAAJ:r0BpntZqJG4C:
-    citations: 12
+    citations: 13
     title: 'Good AI for Good: How AI Strategies of the Nordic Countries Address the Sustainable Development Goals'
     year: '2022'
   JEw-BycAAAAJ:roLk4NBRz8UC:
-    citations: 177
+    citations: 179
     title: How society can maintain human-centric artificial intelligence
     year: '2019'
   JEw-BycAAAAJ:vV6vV6tmYwMC:
